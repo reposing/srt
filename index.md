@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# Sunrise Race Team
+# Sunrise Racing Team
 
 SRT was created by a number of SZR Sunrise riders who wanted to race but most importantly have fun while doing it.
 
