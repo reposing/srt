@@ -5,6 +5,9 @@
 layout: default
 ---
 
-Richmond UCI 2 Laps
+# Course Notes
 
-Watopia Hilly Reverse 3 Laps
+- Watopia
+  - [Watopia Hilly Route Reverse 3 Laps](coursenotes/watopia-hilly-route-reverse-3-laps.html)
+- Richmond
+  - [Richmond 2015 UCI Worlds Course 2 Laps](coursenotes/richmond-2015-uci-worlds-course-2-laps.html)
