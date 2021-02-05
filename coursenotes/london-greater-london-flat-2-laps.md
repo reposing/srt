@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# Richmond UCI Worlds Course 2 Laps
+# Greater London Flat 2 Laps
 
 [Zwift Insider Route](https://zwiftinsider.com/route/greater-london-flat/)
 
