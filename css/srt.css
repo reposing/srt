@@ -47,3 +47,225 @@ body {
 .bg-secondary {
   background-color: #e2e3e5!important;
 }
+
+.label-as-badge {
+  border-radius: 1em;
+}
+
+.label-black {
+  background-color: #555;
+}
+
+.label-black[href]:hover, .label-black[href]:focus {
+  background-color: #5e5e5e;
+}
+
+.label-zp {
+  padding-top: 4px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.label-yellow-black {
+  background-color: #F3F300;
+}
+
+.label-yellow-black a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.label-red-white {
+  background-color: #d9534f;
+}
+
+.label-red-white a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-blue-white {
+  background-color: #469;
+}
+
+.label-blue-white a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-green-white {
+  background-color: #496;
+}
+
+.label-green-white a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-lightblue-black {
+  background-color: #96B9FA;
+}
+
+.label-lightblue-black a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.label-lightblue-white {
+  background-color: #86A9FA;
+}
+
+.label-lightblue-white a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-orange-white {
+  background-color: #FFAD4A;
+}
+
+.label-orange-white a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-orange-black {
+  background-color: #FFAD4A;
+  color: #000;
+}
+
+.label-orange-black a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.label-custom {
+  border-style: solid !important;
+  border-width: 2px;
+  border-radius: 3px;
+}
+
+.label-cat-Aplus {
+  background-color: #000;
+  color: #fff;
+}
+
+.label-cat-Aplus a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-A {
+  background-color: #dc4119;
+  color: #fff;
+}
+
+.label-cat-A a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-B {
+  background-color: #58c34e;
+  color: #fff;
+}
+
+.label-cat-B a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-C {
+  background-color: #3ec0e9;
+  color: #000;
+}
+
+.label-cat-C a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-D {
+  background-color: #fccf0b;
+  color: #fff;
+}
+
+.label-cat-D a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-E {
+  background-color: #943e5e;
+  color: #fff;
+}
+
+.label-cat-E a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-F {
+  background-color: #9422ae;
+  color: #fff;
+}
+
+.label-cat-F a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-G {
+  background-color: #52be88;
+  color: #fff;
+}
+
+.label-cat-G a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-H {
+  background-color: #c99359;
+  color: #fff;
+}
+
+.label-cat-H a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-I {
+  background-color: #b74f2d;
+  color: #fff;
+}
+
+.label-cat-I a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-J {
+  background-color: #3e1723;
+  color: #fff;
+}
+
+.label-cat-J a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.label-cat-M {
+  background-color: #3c54ab;
+  color: #fff;
+}
+
+.label-cat-M a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.badge {
+  vertical-align: middle;
+}
