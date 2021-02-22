@@ -74,7 +74,7 @@
 
     <main class="container">
 
-        <h1>Provisional Teams for WTRL 2021-02-18</h1>
+        <h1>Provisional Teams for WTRL {{date}}</h1>
 
         <div class="row">
             {{#each teams}}
@@ -102,11 +102,15 @@
                 {{else}}
                 <div class="row border bg-secondary">
                 {{/isOdd}}
+                {{#isMappedRider this}}
                     <div>
                         <a class="popover-link" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-html="true" title="{{name}}"
                             data-bs-content="{{riderPopover this}}">{{displayName}}</a>
                         {{category mixedCategory womensCategory}}
                     </div>
+                {{else}}
+                    <div>{{this}}</div>
+                {{/isMappedRider}}
                 </div>
                 {{/each}}
                 </div>
