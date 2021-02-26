@@ -79,68 +79,13 @@
 
     <main class="container">
 
-        <h1>Provisional Teams for WTRL {{date}}</h1>
+        <h1>Provisional Teams for WTRL 2021-03-04</h1>
 
         <div class="row">
-            {{#each teams}}
-            {{#if racing}}
-            <div class="col-sm pt-3 ps-3">
-                <div class="row border bg-swedishblue fg-swedishyellow">
-                    <div class="fs-5">{{shortName tag}}</div>
-                </div>
-                <div class="row border">
-                    <div>{{class}}</div>
-                </div>
-                <div class="row border bg-secondary">
-                    {{#isPL zone}}
-                    <div>{{bannerDrop bannerDrop}} Pen {{pen}}</div>
-                    {{else}}
-                    {{#isComingSoon event}}
-                    <div>{{bannerDrop bannerDrop}} Pen {{pen}}</div>
-                    {{else}}
-                    <div><a href="{{event}}">{{bannerDrop bannerDrop}} Pen {{pen}}</a></div>
-                    {{/isComingSoon}}
-                    {{/isPL}}
-                </div>
-                <div class="row border">
-                    <div>{{delay}}</div>
-                </div>
-                {{#each riders}}
-                {{#isOdd @index}}
-                <div class="row border">
-                {{else}}
-                <div class="row border bg-secondary">
-                {{/isOdd}}
-                {{#isMappedRider this}}
-                    <div>
-                        <a class="popover-link" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-html="true" title="{{name}}"
-                            data-bs-content="{{riderPopover this}}">{{displayName}}</a>
-                        {{category mixedCategory womensCategory}}
-                        {{#isComingSoon ../event}}
-                        {{else}}
-                        {{#if signedUp}}
-                        {{#if goodTag}}
-                        <i class="bi-check2-circle" style="font-size: 1.2rem; color: green;"></i>
-                        {{else}}
-                        <i class="bi-check2-circle" style="font-size: 1.2rem; color: red;"></i>
-                        {{/if}}
-                        {{else}}
-                        <i class="bi-x-circle"></i>
-                        {{/if}}
-                        {{/isComingSoon}}
-                    </div>
-                {{else}}
-                    <div>{{this}}</div>
-                {{/isMappedRider}}
-                </div>
-                {{/each}}
-                </div>
-            {{/if}}
-            {{/each}}
             </div>
         </div>
         <div class="pt-3">
-            Last Update: {{lastUpdate}}
+            Last Update: 2021-02-26 16:54
         </div>
     </main><!-- /.container -->
 
