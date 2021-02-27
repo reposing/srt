@@ -9,3 +9,5 @@ node_modules
 data/riders.json
 data/teams.json
 data/signups*.json
+
+**/.DS_Store

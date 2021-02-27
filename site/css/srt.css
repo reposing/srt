@@ -275,3 +275,8 @@ body {
   color:blue;
   text-decoration:underline;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
