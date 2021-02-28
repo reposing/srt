@@ -9,5 +9,7 @@ node_modules
 data/riders.json
 data/teams.json
 data/signups*.json
+data/riderHistory.json
+data/honourRoll.json
 
 **/.DS_Store
