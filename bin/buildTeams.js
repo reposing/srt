@@ -312,6 +312,7 @@ function getNextDayOfWeek(date, dayOfWeek) {
         team.shortName = team.tag.replace('(', '').replace(')', '')
         team.riders = []
         team.racing = true
+        team.signups = false
 
         var signups
 
@@ -343,6 +344,7 @@ function getNextDayOfWeek(date, dayOfWeek) {
         }
 
         if (signups) {
+            team.signups = true
             for (const signup of signups.data) {
                 var teamRider = team.riders.find(r => r.profileId === signup.zwid)
                 if (teamRider) {

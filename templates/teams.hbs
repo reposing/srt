@@ -121,6 +121,7 @@
                         {{category mixedCategory womensCategory}}
                         {{#isComingSoon ../event}}
                         {{else}}
+                        {{#if ../signups}}
                         {{#if signedUp}}
                         {{#if goodTag}}
                         <i class="bi-check2-circle" style="font-size: 1.2rem; color: green;"></i>
@@ -129,6 +130,7 @@
                         {{/if}}
                         {{else}}
                         <i class="bi-x-circle"></i>
+                        {{/if}}
                         {{/if}}
                         {{/isComingSoon}}
                     </div>
