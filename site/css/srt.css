@@ -280,3 +280,67 @@ body {
 .carousel-control-next {
   width: 5%;
 }
+
+.label-vienna {
+  background-color: #000;
+  font-family: hanzel;
+  color:#fff;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+.label-Evienna {
+  background-image: linear-gradient(to right, #000000, #D30000);
+  font-family: hanzel;
+  color:#fff;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+.label-Fvienna {
+  background-image: linear-gradient(to right, #000000, #1E9B12);
+  font-family: hanzel;
+  color:#fff;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+.label-Lvienna {
+  background-image: linear-gradient(to right, #000000, #1A38C4);
+  font-family: hanzel;
+  color:#fff;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+.label-espresso {
+  background-color: #d30000;
+  font-family: hanzel;
+  color:#fff;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+.label-frappe {
+  background-color: #1e9b12;
+  font-family: hanzel;
+  color:#fff;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+.label-latte {
+  background-color: #1a38c4;
+  font-family: hanzel;
+  color:#fff;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+.label-mocha {
+  background-color: #f5d10e;
+  font-family: hanzel;
+  color:#000;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}

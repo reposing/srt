@@ -11,5 +11,6 @@ data/teams.json
 data/signups*.json
 data/riderHistory.json
 data/honourRoll.json
+data/results
 
 **/.DS_Store
