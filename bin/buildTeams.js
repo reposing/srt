@@ -250,6 +250,43 @@ async function BuildTeams(teams, eventDate, lastUpdate) {
         return typeof val === 'object' ? options.fn(this) : options.inverse(this)
     })
 
+
+    Handlebars.registerHelper('raceClass', function (raceClass) {
+        var classBadge = ''
+
+        switch (raceClass) {
+            case 'Espresso':
+                classBadge += '<span class="badge label-espresso">Espresso</span>'
+                break
+            case 'Frappe':
+                classBadge += '<span class="badge label-frappe">Frappe</span>'
+                break
+            case 'Latte':
+                classBadge += '<span class="badge label-latte">Latte</span>'
+                break
+            case 'Mocha':
+                classBadge += '<span class="badge label-mocha">Mocha</span>'
+                break
+            case 'Doppio':
+                classBadge += '<span class="badge label-vienna">Doppio</span>'
+                break
+            case 'Vienna':
+                classBadge += '<span class="badge label-vienna">Vienna</span>'
+                break
+            case 'Vienna-Frappe':
+                classBadge += '<span class="badge label-Fvienna">Vienna-Frappe</span>'
+                break
+            case 'Vienna-Latte':
+                classBadge += '<span class="badge label-Lvienna">Vienna-Latte</span>'
+                break
+            case 'Vienna-Espresso':
+                classBadge += '<span class="badge label-Evienna">Vienna-Espresso</span>'
+                break
+        }
+
+        return new Handlebars.SafeString(classBadge)
+    })
+
     templateContents = fs.readFileSync('templates/teams.hbs')
 
     var template = Handlebars.compile(templateContents.toString())
