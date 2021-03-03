@@ -172,7 +172,7 @@ function secondsToTime(timeInSeconds) {
 
 function raceDate(raceID) {
     const weeksToAdd = raceID - 74
-    var raceDate = new Date(2020, 09, 17)
+    var raceDate = new Date(2020, 08, 17)
     raceDate.setDate(raceDate.getDate() + (7 * weeksToAdd))
     return raceDate.getFullYear() + "-" + (raceDate.getMonth() + 1).toString().padStart(2, '0') + "-" + raceDate.getDate().toString().padStart(2, '0')
 }
