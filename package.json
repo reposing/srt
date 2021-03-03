@@ -9,7 +9,7 @@
     "handlebars": "^4.7.6"
   },
   "scripts": {
-    "clean": "rm -f data/riders.json data/signups_1793* data/teams.json",
+    "clean": "rm -f data/riders.json data/signups_* data/teams.json",
     "build": "npm run clean && node bin/buildTeams.js",
     "deploy": "gh-pages -d site -f"
   },
