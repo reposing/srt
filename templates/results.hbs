@@ -125,6 +125,7 @@
             <div class="row border">
             {{/isOdd}}
                 <div class="col-3 border">
+                    <span class="collapse-button collapsed" data-bs-toggle="collapse" href="#collapseExample{{@index}}" role="button" aria-expanded="false" aria-controls="collapseExample{{@index}}"></span>
                     {{teamShrink o}} {{raceClass h}}
                 </div>
                 <div class="col border">
@@ -134,18 +135,50 @@
                     {{d}}<small>/{{classTotal h ../results.classes}}</small>
                 </div>
                 <div class="col border">
-                    {{timeConvert i}}
+                    {{timeConvert i 1}}
                 </div>
                 <div class="col border d-none d-lg-block">
-                    {{timeConvert c}}
+                    {{timeConvert c 1}}
                 </div>
                 <div class="col border d-none d-lg-block">
-                    {{timeConvert e}}
+                    {{timeConvert e 1}}
                 </div>
                 <div class="col border d-none d-sm-block">
                     {{k}} km/h
                 </div>
             </div>
+            <div class="collapse" id="collapseExample{{@index}}">
+                {{#each a}}
+                {{#isOdd @index}}
+                <div class="row border bg-secondary">
+                {{else}}
+                <div class="row border">
+                {{/isOdd}}
+                    <div class="col-auto border">
+                        {{bb}}
+                    </div>
+                    <div class="col border">
+                        {{{cc}}} {{category hh}}
+                    </div>
+                    <div class="col-1 border d-none d-md-block">
+                        {{ff}}
+                    </div>
+                    <div class="col-1 border d-none d-md-block">
+                        {{gg}}
+                    </div>
+                    <div class="col-2 border d-none d-sm-block">
+                        {{timeConvert jj ii}}
+                    </div>
+                    <div class="col-2 border">
+                        {{timeConvert kk ii}}
+                    </div>
+                    <div class="col-2 border d-none d-md-block">
+                        {{ll}} km/h
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+
             {{/each}}
             <div class="py-3">
                 <a href="../results.html">Back to Results List</a>

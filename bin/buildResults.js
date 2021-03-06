@@ -46,6 +46,20 @@ async function WTRLData(raceID) {
         // p - ?  Special Team
         // q - Riders
 
+        // aa - Rider is time marker
+        // bb - Position
+        // cc - Name
+        // dd - Tag?
+        // ee - Team
+        // ff - w/kg
+        // gg - Avg Power
+        // hh - Rider Cat
+        // ii - 0 = DNF, 1 = Finished
+        // jj - Time
+        // kk - Diff
+        // ll - Avg Speed
+        // mm - ProfileID
+
         for (const result of response.data.data) {
             var classSummary = results.classes.find(r => r.class === result.h)
 
@@ -113,6 +127,31 @@ async function BuildRaceResult(results, raceID, totalTeams, raceDate) {
         return new Handlebars.SafeString(classBadge)
     })
 
+    Handlebars.registerHelper('category', function (category) {
+        var categoryBadge = ''
+        switch (category) {
+            case 5:
+                categoryBadge = '<span class="badge label-cat-Aplus label-as-badge" style="font-size:8px;">A+</span>'
+                break
+            case 10:
+                categoryBadge = '<span class="badge label-cat-A label-as-badge" style="font-size:8px;">A</span>'
+                break
+            case 20:
+                categoryBadge = '<span class="badge label-cat-B label-as-badge" style="font-size:8px;">B</span>'
+                break
+            case 30:
+                categoryBadge = '<span class="badge label-cat-C label-as-badge" style="font-size:8px;">C</span>'
+                break
+            case 40:
+                categoryBadge = '<span class="badge label-cat-D label-as-badge" style="font-size:8px;">D</span>'
+                break
+            case 50:
+                categoryBadge = '<span class="badge label-cat-E label-as-badge" style="font-size:8px;">E</span>'
+                break
+        }
+        return new Handlebars.SafeString(categoryBadge)
+    })
+
     Handlebars.registerHelper('classTotal', function (raceClass, classCounts) {
         var classCount = '?'
         var classSummary = classCounts.find(r => r.class === raceClass)
@@ -127,8 +166,8 @@ async function BuildRaceResult(results, raceID, totalTeams, raceDate) {
         return teamName.replace('Sunrise Racing Team', 'SRT').replace(' ', '')
     })
 
-    Handlebars.registerHelper('timeConvert', function (timeInSeconds) {
-        return new Handlebars.SafeString(secondsToTime(timeInSeconds))
+    Handlebars.registerHelper('timeConvert', function (timeInSeconds, dnf) {
+        return dnf == 1 ? new Handlebars.SafeString(secondsToTime(timeInSeconds)) : 'DNF'
     })
 
     Handlebars.registerHelper('isOdd', function (val, options) {
@@ -183,6 +222,10 @@ function raceDate(raceID) {
     for (i = 74; i <= 98; i++) {
         const results = await WTRLData(i)
         totalTeams = results.classes.reduce((a, b) => a + b.teamCount, 0)
+        for (const result of results.teams) {
+            result.a.sort((a, b) => a.bb - b.bb)
+        }
+
         BuildRaceResult(results, i, totalTeams, raceDate(i))
         resultSummary.push({
             raceID: i,
