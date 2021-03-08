@@ -233,6 +233,7 @@ async function BuildAchievments(achievements) {
                 riderDetails.womensCategoryHistory.push({ date: runDate, womensCategory: teamRider.womensCategory })
             }
         } else {
+            console.log(`New rider added: ${teamRider.name}`)
             teamRider.ftpHistory = [{ date: runDate, ftp: teamRider.ftp }]
             teamRider.mixedCategoryHistory = [{ date: runDate, mixedCategory: teamRider.mixedCategory }]
             teamRider.womensCategoryHistory = [{ date: runDate, womensCategory: teamRider.womensCategory }]
