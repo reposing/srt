@@ -219,7 +219,7 @@ function raceDate(raceID) {
 
 (async () => {
     const resultSummary = []
-    for (i = 74; i <= 98; i++) {
+    for (i = 74; i <= 99; i++) {
         const results = await WTRLData(i)
         totalTeams = results.classes.reduce((a, b) => a + b.teamCount, 0)
         for (const result of results.teams) {
