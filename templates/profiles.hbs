@@ -92,18 +92,31 @@
     </nav>
 
     <main class="container">
-        <h1>Rider Achievements</h1>
+        <h1>Rider Profiles</h1>
         <div class="pt-3">
-            {{#each achievements}}
-            {{#isOdd @index}}
-            <div class="row border bg-secondary">
-            {{else}}
-            <div class="row border">
-            {{/isOdd}}
-                <div class="col-auto border">{{ISODate date}}</div>
-                <div class="col-3 border"><a href="https://zwiftpower.com/profile.php?z={{eventData.profileId}}" target="_blank">{{eventData.name}}</a></div>
-                <div class="col border">🎉 {{eventDetails eventType eventData}} 🎉</div>
+            {{#each profiles}}
+            {{#isNewRow @index}}
+            <div class="row">
+            {{/isNewRow}}
+                <div class="col-6 col-lg-3 pt-3">
+                    <div class="card">
+                        <img src="https://static-cdn.zwift.com/prod/profile/{{zwiftPicture}}" class="card-img-top" alt="{{name}}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{name}}</h5>                            
+                            <p class="card-text">{{riderStats this ../riders}}</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="https://www.zwift.com/athlete/{{zwiftId}}">Zwift Profile</a></li>
+                            <li class="list-group-item"><a href="https://zwiftpower.com/profile.php?z={{profileId}}">Zwift Power</a></li>
+                            {{#if strava}}
+                            <li class="list-group-item"><a href="https://www.strava.com/athletes/{{strava}}">Strava</a></li>
+                            {{/if}}
+                        </ul>
+                    </div>
+                </div>
+            {{#isEndRow @index ../profiles.length}}
             </div>
+            {{/isEndRow}}
             {{/each}}
         </div>
     </main><!-- /.container -->
