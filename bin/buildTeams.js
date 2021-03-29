@@ -163,7 +163,7 @@ async function TeamRiders() {
 }
 
 async function BuildTeams(teams, eventDate, lastUpdate) {
-    const Handlebars = require("handlebars")
+    const Handlebars = require('handlebars')
 
     Handlebars.registerHelper('shortName', function (aString) {
         return aString.replace('(', '').replace(')', '')
@@ -401,8 +401,8 @@ function getNextDayOfWeek(date, dayOfWeek) {
     teams.sort((a, b) => a.name.localeCompare(b.name))
 
     const now = new Date()
-    const lastUpdate = now.getFullYear() + "-" + (now.getMonth() + 1).toString().padStart(2, '0') + "-" + now.getDate().toString().padStart(2, '0') + " " + now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0')
-    const nextEvent = nextThursday.getFullYear() + "-" + (nextThursday.getMonth() + 1).toString().padStart(2, '0') + "-" + nextThursday.getDate().toString().padStart(2, '0')
+    const lastUpdate = now.getUTCFullYear() + '-' + (now.getUTCMonth() + 1).toString().padStart(2, '0') + '-' + now.getUTCDate().toString().padStart(2, '0') + ' ' + now.getUTCHours().toString().padStart(2, '0') + ':' + now.getUTCMinutes().toString().padStart(2, '0') + ' UTC'
+    const nextEvent = nextThursday.getFullYear() + '-' + (nextThursday.getMonth() + 1).toString().padStart(2, '0') + '-' + nextThursday.getDate().toString().padStart(2, '0')
 
     await BuildTeams(teams, nextEvent, lastUpdate)
 })()
