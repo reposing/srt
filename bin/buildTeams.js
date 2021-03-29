@@ -355,11 +355,10 @@ function getNextDayOfWeek(date, dayOfWeek) {
         var signups
 
         if (team.event !== 'Coming Soon') {
-            const eventSignupUrl = new URL(team.event)
-            const pathParts = eventSignupUrl.pathname.split('/')
-            if (pathParts.length > 0) {
-                eventId = pathParts[pathParts.length - 1]
-                signups = await ZwiftPowerSignups(eventId)
+            if (teamAssignments.teams.hasOwnProperty(team.shortName)) {
+                if (teamAssignments.teams[team.shortName].eventID) {
+                    signups = await ZwiftPowerSignups(teamAssignments.teams[team.shortName].eventID)
+                }
             }
         }
 
@@ -383,19 +382,20 @@ function getNextDayOfWeek(date, dayOfWeek) {
 
         if (signups) {
             team.signups = true
+            var pens = ['', 'A', 'B', 'C', 'D', 'E']
+
             for (const signup of signups.data) {
                 var teamRider = team.riders.find(r => r.profileId === signup.zwid)
                 if (teamRider) {
                     teamRider.signedUp = true
-                    teamRider.goodTag = false
+                    teamRider.goodPen = false
 
-                    if (teamRider.name.indexOf(team.tag) != -1) {
-                        teamRider.goodTag = true
+                    if (team.pen === pens[signup.label]) {
+                        teamRider.goodPen = true
                     }
                 }
             }
         }
-
     }
 
     teams.sort((a, b) => a.name.localeCompare(b.name))

@@ -3,6 +3,7 @@
     "teams": {
         "SRT": {
             "racing": true,
+            "eventID": 1962144,
             "mapped": [
                 259754,
                 412955,
@@ -16,6 +17,7 @@
         },
         "SRT2": {
             "racing": false,
+            "eventID": 1962144,
             "mapped": [
                 2418734,
                 3453721,
@@ -26,6 +28,7 @@
         },
         "SRT3": {
             "racing": true,
+            "eventID": 1962144,
             "mapped": [
                 360987,
                 185117,
@@ -40,6 +43,7 @@
         },
         "SRT4": {
             "racing": true,
+            "eventID": 1962144,
             "mapped": [
                 1779299,
                 2791153,
@@ -54,6 +58,7 @@
         },
         "SRT5": {
             "racing": true,
+            "eventID": 1962149,
             "mapped": [
                 2196190,
                 1582676,
@@ -67,6 +72,7 @@
         },
         "SRT6": {
             "racing": true,
+            "eventID": 1962144,
             "mapped": [
                 1206458,
                 202991,
