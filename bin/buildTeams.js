@@ -344,6 +344,7 @@ function getNextDayOfWeek(date, dayOfWeek) {
     const nextThursday = getNextDayOfWeek(currentDate, 4)
     nextThursday.setHours(0, 0, 0, 0)
     const assignmentDate = new Date(teamAssignments.date)
+    assignmentDate.setHours(0, 0, 0, 0)
 
     for (const team of teams) {
         team.shortName = team.tag.replace('(', '').replace(')', '')
@@ -402,5 +403,6 @@ function getNextDayOfWeek(date, dayOfWeek) {
     const now = new Date()
     const lastUpdate = now.getFullYear() + "-" + (now.getMonth() + 1).toString().padStart(2, '0') + "-" + now.getDate().toString().padStart(2, '0') + " " + now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0')
     const nextEvent = nextThursday.getFullYear() + "-" + (nextThursday.getMonth() + 1).toString().padStart(2, '0') + "-" + nextThursday.getDate().toString().padStart(2, '0')
+
     await BuildTeams(teams, nextEvent, lastUpdate)
 })()

@@ -102,15 +102,7 @@
                     <div>{{raceClass class}}</div>
                 </div>
                 <div class="row border bg-secondary">
-                    {{#isPL zone}}
                     <div>{{bannerDrop bannerDrop}} Pen {{pen}}</div>
-                    {{else}}
-                    {{#isComingSoon event}}
-                    <div>{{bannerDrop bannerDrop}} Pen {{pen}}</div>
-                    {{else}}
-                    <div><a href="{{event}}">{{bannerDrop bannerDrop}} Pen {{pen}}</a></div>
-                    {{/isComingSoon}}
-                    {{/isPL}}
                 </div>
                 <div class="row border">
                     <div>{{delay}}</div>
