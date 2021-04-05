@@ -1,23 +1,24 @@
 {
-    "date": "2021-04-01",
+    "date": "2021-04-08",
     "teams": {
         "SRT": {
             "racing": true,
-            "eventID": 1962144,
+            "eventID": 1983441,
             "mapped": [
                 259754,
+                2981014,
+                185117,
                 412955,
-                446988,
-                777133,
-                2418734,
-                3453721,
-                1873947
+                1827029,
+                1057339,
+                896248,
+                700766
             ],
             "unmapped": []
         },
         "SRT2": {
             "racing": false,
-            "eventID": 1962144,
+            "eventID": 0,
             "mapped": [
                 2418734,
                 3453721,
@@ -27,8 +28,8 @@
             "unmapped": []
         },
         "SRT3": {
-            "racing": true,
-            "eventID": 1962144,
+            "racing": false,
+            "eventID": 0,
             "mapped": [
                 360987,
                 185117,
@@ -43,22 +44,21 @@
         },
         "SRT4": {
             "racing": true,
-            "eventID": 1962144,
+            "eventID": 1983445,
             "mapped": [
+                1364611,
                 1779299,
                 2791153,
                 1780235,
-                2959017,
-                1364611,
-                1204309,
-                370870
+                370870,
+                1204309
             ],
             "unmapped": [
             ]
         },
         "SRT5": {
             "racing": true,
-            "eventID": 1962149,
+            "eventID": 1983445,
             "mapped": [
                 2196190,
                 1582676,
@@ -71,8 +71,8 @@
             "unmapped": []
         },
         "SRT6": {
-            "racing": true,
-            "eventID": 1962015,
+            "racing": false,
+            "eventID": 0,
             "mapped": [
                 1206458,
                 202991,
