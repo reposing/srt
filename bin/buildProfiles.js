@@ -34,6 +34,8 @@ async function BuildProfiles(profiles, riders) {
 
         var riderDetail = riders.find(r => r.profileId === profile.profileId)
 
+        // console.log(profile.profileId)
+
         var detail = `FTP: ${riderDetail.ftp} w | ${categoryBadge(riderDetail.mixedCategory)}`
         if (riderDetail.womensCategory !== 0) {
             detail += ` ${categoryBadge(riderDetail.womensCategory)}`
