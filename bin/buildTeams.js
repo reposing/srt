@@ -132,7 +132,7 @@ async function TeamRiders() {
 
     const requestDetails = {
         method: 'GET',
-        url: `https://zwiftpower.com/api3.php?do=team_riders&id=11789`
+        url: 'https://zwiftpower.com/cache3/teams/11789_riders.json' //`https://zwiftpower.com/api3.php?do=team_riders&id=11789`
     }
 
     try {
