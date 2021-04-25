@@ -4,7 +4,7 @@ const fs = require('fs')
 async function TeamRiders() {
     const requestDetails = {
         method: 'GET',
-        url: `https://zwiftpower.com/api3.php?do=team_riders&id=11789`
+        url: 'https://zwiftpower.com/cache3/teams/11789_riders.json' //`https://zwiftpower.com/api3.php?do=team_riders&id=11789`
     }
 
     try {
@@ -14,11 +14,16 @@ async function TeamRiders() {
 
         if (response.data.data) {
             for (const rider of response.data.data) {
+                var weight = 0
+                if (rider.hasOwnProperty('h_1200_watts') && rider.h_1200_watts != '') {
+                    weight = rider.h_1200_watts.replace(',', '') / rider.h_1200_wkg
+                }
+        
                 newRider = {
                     profileId: rider.zwid,
                     name: rider.name,
                     ftp: rider.ftp[0],
-                    weight: rider.w[0],
+                    weight: weight,
                     mixedCategory: rider.div,
                     womensCategory: rider.divw
                 }
@@ -112,7 +117,7 @@ async function BuildAchievments(achievements) {
                     categoryBadge = '<span class="badge label-cat-E label-as-badge" style="font-size:8px;">E</span>'
                     break
             }
-            return categoryBadge    
+            return categoryBadge
         }
 
         var eventValue = ''
@@ -255,7 +260,7 @@ async function BuildAchievments(achievements) {
     fs.writeFileSync(riderHistoryPath, JSON.stringify(riders, null, 2), 'utf8')
     fs.writeFileSync(honourRollPath, JSON.stringify(honourRoll, null, 2), 'utf8')
 
-    honourRoll.sort((a,b) => new Date(b.date) - new Date(a.date) )
+    honourRoll.sort((a, b) => new Date(b.date) - new Date(a.date))
 
     await BuildAchievments(honourRoll)
 })()

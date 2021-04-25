@@ -100,7 +100,9 @@
             {{/isNewRow}}
                 <div class="col-6 col-lg-3 pt-3">
                     <div class="card">
+                        {{#if zwiftPicture}}
                         <img src="https://static-cdn.zwift.com/prod/profile/{{zwiftPicture}}" class="card-img-top" alt="{{name}}">
+                        {{/if}}
                         <div class="card-body">
                             <h5 class="card-title">{{name}}</h5>                            
                             <p class="card-text">{{riderStats this ../riders}}</p>

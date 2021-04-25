@@ -142,11 +142,16 @@ async function TeamRiders() {
 
         if (response.data.data) {
             for (const rider of response.data.data) {
+                var weight = 0
+                if (rider.hasOwnProperty('h_1200_watts') && rider.h_1200_watts != '') {
+                    weight = rider.h_1200_watts.replace(',', '') / rider.h_1200_wkg
+                }
+
                 newRider = {
                     profileId: rider.zwid,
                     name: rider.name,
                     ftp: rider.ftp[0],
-                    weight: rider.w[0],
+                    weight: weight,
                     mixedCategory: rider.div,
                     womensCategory: rider.divw
                 }
