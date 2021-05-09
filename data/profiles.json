@@ -521,7 +521,14 @@
     "profileId": 3226171,
     "name": "Joanna Clayton",
     "zwiftId": "ee05b432-66df-42f8-b28c-171c562226bb",
-    "zwiftPicture": "",
+    "zwiftPicture": "623383dd-2063122",
     "strava": "16571802"
+  },
+  {
+    "profileId": 788974,
+    "name": "Pierre Chraim",
+    "zwiftId": "12ec8983-1d2e-4769-892e-1f87753e7d67",
+    "zwiftPicture": "",
+    "strava": "24263567"
   }
 ]
