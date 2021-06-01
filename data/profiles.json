@@ -537,5 +537,19 @@
     "zwiftId": "176d2148-b5f6-49d0-abed-a034b3d89772",
     "zwiftPicture": "2e71c5e7-1802322",
     "strava": ""
+  },
+  {
+    "profileId": 3833413,
+    "name": "Wendy",
+    "zwiftId": "f096a34f-9a51-4296-8415-26c974401014",
+    "zwiftPicture": "802ca2b1-2032243",
+    "strava": ""
+  },
+  {
+    "profileId": 3480768,
+    "name": "Ben Rothberg",
+    "zwiftId": "4f07ecf8-1347-452b-aad5-ecda432f25ba",
+    "zwiftPicture": "85f8b3ba-1833324",
+    "strava": "276560"
   }
 ]

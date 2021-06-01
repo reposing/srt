@@ -19,8 +19,8 @@ jobs:
       with:
         node-version: 12.x
     - run: npm ci
-    - run: npm run build
-    - run: git diff
+    # - run: npm run build
+    # - run: git diff
     - name: Deploy gh-pages branch
       run: |
         git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git

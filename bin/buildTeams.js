@@ -1,6 +1,5 @@
 const axios = require('axios')
 const fs = require('fs')
-const { toNamespacedPath } = require('path')
 
 async function WTRLData() {
     const path = 'data/teams.json'
@@ -130,18 +129,31 @@ async function TeamRiders() {
         console.error(err)
     }
 
+    const zwiftPowerRiders = `data/11789_riders.json`
+    let zwiftPowerRiderData
+    try {
+        if (fs.existsSync(zwiftPowerRiders)) {
+            zwiftPowerRiderData = JSON.parse(fs.readFileSync(zwiftPowerRiders, 'utf8'))
+        }
+    } catch (err) {
+        console.error(err)
+    }
+
     const requestDetails = {
         method: 'GET',
         url: 'https://zwiftpower.com/cache3/teams/11789_riders.json' //`https://zwiftpower.com/api3.php?do=team_riders&id=11789`
     }
 
     try {
-        const response = await axios(requestDetails)
+        if (typeof zwiftPowerRiderData === 'undefined') {
+            const response = await axios(requestDetails)
+            zwiftPowerRiderData = response.data
+        }
 
         var riders = []
 
-        if (response.data.data) {
-            for (const rider of response.data.data) {
+        if (zwiftPowerRiderData.data) {
+            for (const rider of zwiftPowerRiderData.data) {
                 var weight = 0
                 if (rider.hasOwnProperty('h_1200_watts') && rider.h_1200_watts != '') {
                     weight = rider.h_1200_watts.replace(',', '') / rider.h_1200_wkg
