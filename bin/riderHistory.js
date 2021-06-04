@@ -28,8 +28,8 @@ async function TeamRiders() {
 
         if (zwiftPowerRiderData.data) {
             for (const rider of zwiftPowerRiderData.data) {
-                var weight = 0
-                if (rider.hasOwnProperty('h_1200_watts') && rider.h_1200_watts != '') {
+                var weight = rider.w[0]
+                if (weight === 0 && rider.hasOwnProperty('h_1200_watts') && rider.h_1200_watts != '') {
                     weight = rider.h_1200_watts.replace(',', '') / rider.h_1200_wkg
                 }
         
