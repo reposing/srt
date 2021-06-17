@@ -303,7 +303,7 @@ async function RiderProfiles() {
 
     const profiles = await RiderProfiles()
 
-    for (i = 74; i <= 112; i++) {
+    for (i = 74; i <= 113; i++) {
         const results = await WTRLData(i)
         totalTeams = results.classes.reduce((a, b) => a + b.teamCount, 0)
         for (const result of results.teams) {
