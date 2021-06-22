@@ -35,7 +35,8 @@ async function WTRLData() {
                                 for (const cellChild of cell.children) {
                                     if (cellChild.data && cellChild.data.startsWith('Sunrise Racing Team')) {
                                         const team = {
-                                            name: cellChild.data
+                                            name: cellChild.data,
+                                            tag: ''
                                         }
 
                                         // console.log(cellChild.parent)
@@ -57,21 +58,42 @@ async function WTRLData() {
                                         if (cellChild.parent.next.children[0]) {
                                             team.delay = cellChild.parent.next.children[0].data
                                         }
-                                        if (cellChild.parent.next.next.children[0]) {
-                                            team.tag = cellChild.parent.next.next.children[0].data
+                                        // if (cellChild.parent.next.next.children[0]) {
+                                        //     team.tag = cellChild.parent.next.next.children[0].data
+                                        // }
+                                        if (cellChild.parent.next.next.children[0].children[0]) {
+                                            team.pen = cellChild.parent.next.next.children[0].children[0].data
                                         }
-                                        if (cellChild.parent.next.next.next.children[0].children[0]) {
-                                            team.pen = cellChild.parent.next.next.next.children[0].children[0].data
+                                        if (cellChild.parent.next.next.next.children[0]) {
+                                            team.bannerDrop = cellChild.parent.next.next.next.children[0].data
                                         }
                                         if (cellChild.parent.next.next.next.next.children[0]) {
-                                            team.bannerDrop = cellChild.parent.next.next.next.next.children[0].data
-                                        }
-                                        if (cellChild.parent.next.next.next.next.next.children[0]) {
-                                            if (cellChild.parent.next.next.next.next.next.children[0].attribs) {
-                                                team.event = cellChild.parent.next.next.next.next.next.children[0].attribs.href
+                                            if (cellChild.parent.next.next.next.next.children[0].attribs) {
+                                                team.event = cellChild.parent.next.next.next.next.children[0].attribs.href
                                             } else {
                                                 team.event = 'Coming Soon'
                                             }
+                                        }
+
+                                        switch (team.name) {
+                                            case 'Sunrise Racing Team':
+                                                team.tag = 'SRT'
+                                                break;
+                                            case 'Sunrise Racing Team 2':
+                                                team.tag = 'SRT2'
+                                                break;
+                                            case 'Sunrise Racing Team 3':
+                                                team.tag = 'SRT3'
+                                                break;
+                                            case 'Sunrise Racing Team 4':
+                                                team.tag = 'SRT4'
+                                                break;
+                                            case 'Sunrise Racing Team 5':
+                                                team.tag = 'SRT5'
+                                                break;
+                                            case 'Sunrise Racing Team 6':
+                                                team.tag = 'SRT6'
+                                                break;
                                         }
 
                                         teams.push(team)
