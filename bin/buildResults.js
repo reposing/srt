@@ -8,6 +8,16 @@ async function WTRLData(raceID) {
         classes: []
     }
 
+    const wtrlResultsFile = `data/wtrlresults.json`
+    let wtrlResultsData
+    try {
+        if (fs.existsSync(wtrlResultsFile)) {
+            wtrlResultsData = JSON.parse(fs.readFileSync(wtrlResultsFile, 'utf8'))
+        }
+    } catch (err) {
+        console.error(err)
+    }
+
     const now = Date.now()
     const path = `data/results/ttt-${raceID}.json`
 
@@ -27,7 +37,10 @@ async function WTRLData(raceID) {
 
     // console.log(requestDetails.url)
     try {
-        const response = await axios(requestDetails)
+        if (typeof wtrlResultsData === 'undefined') {
+            const response = await axios(requestDetails)
+            wtrlResultsData = response.data
+        }
 
         // a - Rider Data
         // b - Rank GC
@@ -61,7 +74,7 @@ async function WTRLData(raceID) {
         // ll - Avg Speed
         // mm - ProfileID
 
-        for (const result of response.data.data) {
+        for (const result of wtrlResultsData.data) {
             var classSummary = results.classes.find(r => r.class === result.h)
 
             if (classSummary) {
@@ -303,7 +316,7 @@ async function RiderProfiles() {
 
     const profiles = await RiderProfiles()
 
-    for (i = 74; i <= 121; i++) {
+    for (i = 74; i <= 124; i++) {
         const results = await WTRLData(i)
         totalTeams = results.classes.reduce((a, b) => a + b.teamCount, 0)
         for (const result of results.teams) {
