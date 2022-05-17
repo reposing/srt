@@ -5,14 +5,14 @@ async function WTRLData() {
     const path = 'data/teams.json'
     var teams = []
 
-    try {
-        if (fs.existsSync(path)) {
-            teams = JSON.parse(fs.readFileSync(path, 'utf8'))
-            return teams
-        }
-    } catch (err) {
-        console.error(err)
-    }
+    // try {
+    //     if (fs.existsSync(path)) {
+    //         teams = JSON.parse(fs.readFileSync(path, 'utf8'))
+    //         return teams
+    //     }
+    // } catch (err) {
+    //     console.error(err)
+    // }
 
     const cheerio = require('cheerio')
 
@@ -26,7 +26,7 @@ async function WTRLData() {
     const tables = $('table')
 
     for (const table of tables) {
-        if (table.attribs.id === 'reg_ttt') {
+        if (table.attribs.id === 'wtrlttt-reg') {
             for (const tableSection of table.children) {
                 if (tableSection.name === 'tbody') {
                     for (const rows of tableSection.children) {
@@ -38,8 +38,6 @@ async function WTRLData() {
                                             name: cellChild.data,
                                             tag: ''
                                         }
-
-                                        // console.log(cellChild.parent)
 
                                         if (cellChild.parent.prev.children[0].children[0]) {
                                             team.class = cellChild.parent.prev.children[0].children[0].data
@@ -55,17 +53,17 @@ async function WTRLData() {
                                             }
                                         }
 
-                                        if (cellChild.parent.next.children[0]) {
-                                            team.delay = cellChild.parent.next.children[0].data
+                                        if (cellChild.parent.next.next.children[0]) {
+                                            team.delay = cellChild.parent.next.next.children[0].data
                                         }
                                         // if (cellChild.parent.next.next.children[0]) {
                                         //     team.tag = cellChild.parent.next.next.children[0].data
                                         // }
-                                        if (cellChild.parent.next.next.children[0].children[0]) {
-                                            team.pen = cellChild.parent.next.next.children[0].children[0].data
+                                        if (cellChild.parent.next.next.children[0].children) {
+                                            team.pen = cellChild.parent.next.next.children[0].children.data
                                         }
-                                        if (cellChild.parent.next.next.next.children[0]) {
-                                            team.bannerDrop = cellChild.parent.next.next.next.children[0].data
+                                        if (cellChild.parent.next.next.next.next.children[0]) {
+                                            team.bannerDrop = cellChild.parent.next.next.next.next.children[0].data
                                         }
                                         if (cellChild.parent.next.next.next.next.children[0]) {
                                             if (cellChild.parent.next.next.next.next.children[0].attribs) {
