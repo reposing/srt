@@ -140,16 +140,16 @@ async function ZwiftPowerSignups(eventId) {
 
 async function TeamRiders() {
     const path = `data/riders.json`
-    var riders
+    // var riders
 
-    try {
-        if (fs.existsSync(path)) {
-            riders = JSON.parse(fs.readFileSync(path, 'utf8'))
-            return riders
-        }
-    } catch (err) {
-        console.error(err)
-    }
+    // try {
+    //     if (fs.existsSync(path)) {
+    //         riders = JSON.parse(fs.readFileSync(path, 'utf8'))
+    //         return riders
+    //     }
+    // } catch (err) {
+    //     console.error(err)
+    // }
 
     const zwiftPowerRiders = `data/11789_riders.json`
     let zwiftPowerRiderData
