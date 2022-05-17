@@ -98,13 +98,6 @@
     "strava": "59234927"
   },
   {
-    "profileId": 1206458,
-    "name": "Dean Bevelander",
-    "zwiftId": "49f6e9eb-909f-4cc2-bfd4-a846a12a4dd7",
-    "zwiftPicture": "08144909-639468",
-    "strava": "3060667"
-  },
-  {
     "profileId": 435328,
     "name": "Deb Murphy",
     "zwiftId": "20f9b963-0493-4395-849f-70c508db979e",
@@ -357,20 +350,6 @@
     "strava": ""
   },
   {
-    "profileId": 1052305,
-    "name": "Robin Astle",
-    "zwiftId": "593d9f91-21ab-4ede-938f-102a0f095d2e",
-    "zwiftPicture": "23ad49ec-597438",
-    "strava": "204399"
-  },
-  {
-    "profileId": 326716,
-    "name": "ROCK",
-    "zwiftId": "b1d7e448-05dd-4f0b-8fa7-912ab29eaf33",
-    "zwiftPicture": "14a9f770-184203",
-    "strava": "3161859"
-  },
-  {
     "profileId": 2959017,
     "name": "Ryan Cole",
     "zwiftId": "ed219f34-e806-4d47-af06-5b102d64d299",
@@ -528,7 +507,7 @@
     "profileId": 788974,
     "name": "Pierre Chraim",
     "zwiftId": "12ec8983-1d2e-4769-892e-1f87753e7d67",
-    "zwiftPicture": "",
+    "zwiftPicture": "c2250788-2094318",
     "strava": "24263567"
   },
   {
@@ -539,25 +518,11 @@
     "strava": ""
   },
   {
-    "profileId": 3833413,
-    "name": "Wendy",
-    "zwiftId": "f096a34f-9a51-4296-8415-26c974401014",
-    "zwiftPicture": "802ca2b1-2032243",
-    "strava": ""
-  },
-  {
     "profileId": 3480768,
     "name": "Ben Rothberg",
     "zwiftId": "4f07ecf8-1347-452b-aad5-ecda432f25ba",
     "zwiftPicture": "85f8b3ba-1833324",
     "strava": "276560"
-  },
-  {
-    "profileId": 397663,
-    "name": "Stuart Cook",
-    "zwiftId": "397663",
-    "zwiftPicture": "f7059153-215357",
-    "strava": ""
   },
   {
     "profileId": 149859,
@@ -585,6 +550,111 @@
     "name": "Joseph Kingaby",
     "zwiftId": "f3a943d2-907e-45d6-9c68-6598b33d4160",
     "zwiftPicture": "cfb07490-1281692",
+    "strava": ""
+  },
+  {
+    "profileId": 3734886,
+    "name": "Luke Holmes",
+    "zwiftId": "6a9a293b-6b6c-48ee-be6b-6a5667bdbe6d",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 3235618,
+    "name": "Maciej Czapiewski",
+    "zwiftId": "783cdd8d-a773-4292-9f56-76db0d017e2f",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 564652,
+    "name": "Nick Hunter",
+    "zwiftId": "de7a76ba-b110-463a-9ae9-374bc6e688f7",
+    "zwiftPicture": "05be80a7-302680",
+    "strava": ""
+  },
+  {
+    "profileId": 3750834,
+    "name": "Andy Ho",
+    "zwiftId": "fac42a1c-b3a9-4bfa-935f-3da56c56ae3c",
+    "zwiftPicture": "8c777d6f-1956410",
+    "strava": "336289"
+  },
+  {
+    "profileId": 1897353,
+    "name": "Chris Akers",
+    "zwiftId": "19bb44fd-bff4-4ad4-9a93-5ec70d726416",
+    "zwiftPicture": "9df8b296-1585634",
+    "strava": "10853976"
+  },
+  {
+    "profileId": 39462,
+    "name": "Chris Murray",
+    "zwiftId": "762851a8-9f40-44bc-9223-81f0a05250d2",
+    "zwiftPicture": "6feeda9b-960837",
+    "strava": ""
+  },
+  {
+    "profileId": 167609,
+    "name": "Chris Wood",
+    "zwiftId": "90dae259-7bff-4209-b4c4-a39d036c1da9",
+    "zwiftPicture": "79404fa7-1365021",
+    "strava": ""
+  },
+  {
+    "profileId": 3615743,
+    "name": "Gary Johnson",
+    "zwiftId": "f9ce83fe-e937-4cdc-a1f9-b39edf8da234",
+    "zwiftPicture": "5ad86c27-1972676",
+    "strava": "78677159"
+  },
+  {
+    "profileId": 835148,
+    "name": "Marian Wilken",
+    "zwiftId": "93ece83d-7835-4556-b16c-467c1cdf8dd6",
+    "zwiftPicture": "e2df4fd3-472616",
+    "strava": "23111165"
+  },
+  {
+    "profileId": 1518315,
+    "name": "Matt Jones",
+    "zwiftId": "8c77d106-555b-4065-a9a0-71a5e218c6c4",
+    "zwiftPicture": "309d3bae-1561025",
+    "strava": ""
+  },
+  {
+    "profileId": 3197706,
+    "name": "Nick Farni",
+    "zwiftId": "a606c47d-e438-46b2-bf4c-924b7be40935",
+    "zwiftPicture": "eff8c7e5-1671818",
+    "strava": "73331662"
+  },
+  {
+    "profileId": 3460266,
+    "name": "Parker Dman",
+    "zwiftId": "84f17ca6-2f89-4c1d-9c75-541479fdc5d4",
+    "zwiftPicture": "fbeb631b-2085655",
+    "strava": ""
+  },
+  {
+    "profileId": 799745,
+    "name": "Roman Sazanov",
+    "zwiftId": "c145bf11-13b0-41a0-98ad-87c28661e2f6",
+    "zwiftPicture": "5264c8c1-416358",
+    "strava": ""
+  },
+  {
+    "profileId": 211910,
+    "name": "Stuart Hansford",
+    "zwiftId": "1524f1e9-1e56-4dde-86b9-36ba1a5a0250",
+    "zwiftPicture": "ca7bb07a-129960",
+    "strava": "15937468"
+  },
+  {
+    "profileId": 912359,
+    "name": "Thomas Balle",
+    "zwiftId": "9da1198c-7873-4ada-9761-f323443ea78b",
+    "zwiftPicture": "a2914f39-612786",
     "strava": ""
   }
 ]
