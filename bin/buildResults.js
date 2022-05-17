@@ -8,15 +8,15 @@ async function WTRLData(raceID) {
         classes: []
     }
 
-    const wtrlResultsFile = `data/wtrlresults.json`
+    // const wtrlResultsFile = `data/wtrlresults.json`
     let wtrlResultsData
-    try {
-        if (fs.existsSync(wtrlResultsFile)) {
-            wtrlResultsData = JSON.parse(fs.readFileSync(wtrlResultsFile, 'utf8'))
-        }
-    } catch (err) {
-        console.error(err)
-    }
+    // try {
+    //     if (fs.existsSync(wtrlResultsFile)) {
+    //         wtrlResultsData = JSON.parse(fs.readFileSync(wtrlResultsFile, 'utf8'))
+    //     }
+    // } catch (err) {
+    //     console.error(err)
+    // }
 
     const now = Date.now()
     const path = `data/results/ttt-${raceID}.json`
@@ -32,7 +32,7 @@ async function WTRLData(raceID) {
 
     const requestDetails = {
         method: 'GET',
-        url: `https://www.wtrl.racing/wtrl_api/wtrlttt20201021.php?wtrlid=${raceID}&&_=${now}`
+        url: `https://www.wtrl.racing/wtrl_api/wtrlttt20201021.php?wtrlid=${raceID}&_=${now}`
     }
 
     // console.log(requestDetails.url)
@@ -230,6 +230,9 @@ async function BuildRiderResults(riderSummary, raceCategories) {
             case 'Vienna-Espresso':
                 classBadge += '<span class="badge label-Evienna">Vienna-Espresso</span>'
                 break
+            default:
+                classBadge += raceClass
+                break
         }
 
         return new Handlebars.SafeString(classBadge)
@@ -316,55 +319,57 @@ async function RiderProfiles() {
 
     const profiles = await RiderProfiles()
 
-    for (i = 74; i <= 125; i++) {
+    for (i = 74; i <= 160; i++) {
         const results = await WTRLData(i)
         totalTeams = results.classes.reduce((a, b) => a + b.teamCount, 0)
         for (const result of results.teams) {
-            result.a.sort((a, b) => a.bb - b.bb)
+            if (result.a !== null) {
+                result.a.sort((a, b) => a.bb - b.bb)
 
-            for (const rider of result.a) {
-                var riderRaces = riderSummary.find(r => r.profileId === rider.mm)
-                var existingClass = raceCategories.find(r => r === result.h)
+                for (const rider of result.a) {
+                    var riderRaces = riderSummary.find(r => r.profileId === rider.mm)
+                    var existingClass = raceCategories.find(r => r === result.h)
 
-                if (!existingClass) {
-                    raceCategories.push(result.h)
-                }
+                    if (!existingClass) {
+                        raceCategories.push(result.h)
+                    }
 
-                if (riderRaces) {
-                    riderRaces.count++
-                    var raceCount = riderRaces.races.find(r => r.class === result.h)
+                    if (riderRaces) {
+                        riderRaces.count++
+                        var raceCount = riderRaces.races.find(r => r.class === result.h)
 
-                    if (raceCount) {
-                        raceCount.count++
+                        if (raceCount) {
+                            raceCount.count++
+                        } else {
+                            riderRaces.races.push({
+                                class: result.h,
+                                count: 1
+                            })
+                        }
                     } else {
-                        riderRaces.races.push({
-                            class: result.h,
+                        var profile = profiles.find(r => r.profileId === rider.mm)
+
+                        var riderName
+                        if (profile) {
+                            riderName = profile.name
+                        } else {
+                            riderName = rider.cc
+                        }
+
+                        riderRaces = {
+                            profileId: rider.mm,
+                            name: riderName,
+                            races: [{
+                                class: result.h,
+                                count: 1
+                            }],
                             count: 1
-                        })
-                    }
-                } else {
-                    var profile = profiles.find(r => r.profileId === rider.mm)
+                        }
 
-                    var riderName
-                    if (profile) {
-                        riderName = profile.name
-                    } else {
-                        riderName = rider.cc
+                        riderSummary.push(riderRaces)
                     }
 
-                    riderRaces = {
-                        profileId: rider.mm,
-                        name: riderName,
-                        races: [{
-                            class: result.h,
-                            count: 1
-                        }],
-                        count: 1
-                    }
-
-                    riderSummary.push(riderRaces)
                 }
-
             }
         }
 
