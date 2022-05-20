@@ -1,5 +1,6 @@
 const axios = require('axios')
 const fs = require('fs')
+const Handlebars = require('./templateHelpers').templateHelpers()
 
 async function TeamRiders() {
 
@@ -53,107 +54,7 @@ async function TeamRiders() {
 }
 
 async function BuildAchievments(achievements) {
-    const Handlebars = require("handlebars")
-
-    Handlebars.registerHelper('category', function (category) {
-        var categoryBadge = ''
-        switch (category) {
-            case 5:
-                categoryBadge = '<span class="badge label-cat-Aplus label-as-badge" style="font-size:8px;">A+</span>'
-                break
-            case 10:
-                categoryBadge = '<span class="badge label-cat-A label-as-badge" style="font-size:8px;">A</span>'
-                break
-            case 20:
-                categoryBadge = '<span class="badge label-cat-B label-as-badge" style="font-size:8px;">B</span>'
-                break
-            case 30:
-                categoryBadge = '<span class="badge label-cat-C label-as-badge" style="font-size:8px;">C</span>'
-                break
-            case 40:
-                categoryBadge = '<span class="badge label-cat-D label-as-badge" style="font-size:8px;">D</span>'
-                break
-            case 50:
-                categoryBadge = '<span class="badge label-cat-E label-as-badge" style="font-size:8px;">E</span>'
-                break
-        }
-        return new Handlebars.SafeString(categoryBadge)
-    })
-
-    Handlebars.registerHelper('isOdd', function (val, options) {
-        return val % 2 !== 0 ? options.fn(this) : options.inverse(this)
-    })
-
-    Handlebars.registerHelper('ISODate', function (date) {
-        var eventDate = new Date(date)
-        return eventDate.getFullYear() + "-" + (eventDate.getMonth() + 1).toString().padStart(2, '0') + "-" + eventDate.getDate().toString().padStart(2, '0')
-    })
-
-    Handlebars.registerHelper('eventType', function (eventType) {
-        var eventValue = ''
-        switch (eventType) {
-            case 'ftpBump':
-                eventValue = 'FTP Increase'
-                break
-            case 'mixedCategoryChange':
-                eventValue = 'Mixed Category Increase'
-                break
-            case 'womensCategoryChange':
-                eventValue = 'Womens Category Increase'
-                break
-            case 'riderJoined':
-                eventValue = 'Rider Joined'
-                break
-        }
-        return eventValue
-    })
-
-    Handlebars.registerHelper('eventDetails', function (eventType, eventData) {
-        var categoryBadge = function (category) {
-            var categoryBadge = ''
-            switch (category) {
-                case 5:
-                    categoryBadge = '<span class="badge label-cat-Aplus label-as-badge" style="font-size:8px;">A+</span>'
-                    break
-                case 10:
-                    categoryBadge = '<span class="badge label-cat-A label-as-badge" style="font-size:8px;">A</span>'
-                    break
-                case 20:
-                    categoryBadge = '<span class="badge label-cat-B label-as-badge" style="font-size:8px;">B</span>'
-                    break
-                case 30:
-                    categoryBadge = '<span class="badge label-cat-C label-as-badge" style="font-size:8px;">C</span>'
-                    break
-                case 40:
-                    categoryBadge = '<span class="badge label-cat-D label-as-badge" style="font-size:8px;">D</span>'
-                    break
-                case 50:
-                    categoryBadge = '<span class="badge label-cat-E label-as-badge" style="font-size:8px;">E</span>'
-                    break
-            }
-            return categoryBadge
-        }
-
-        var eventValue = ''
-        switch (eventType) {
-            case 'ftpBump':
-                eventValue = `FTP increase from ${eventData.oldFTP} watts to ${eventData.newFTP} watts`
-                break
-            case 'mixedCategoryChange':
-                eventValue = `Mixed category increase from ${categoryBadge(eventData.oldCategory)} to ${categoryBadge(eventData.newCategory)}`
-                break
-            case 'womensCategoryChange':
-                eventValue = `Womens category increase from ${categoryBadge(eventData.oldCategory)} to ${categoryBadge(eventData.newCategory)}`
-                break
-            case 'riderJoined':
-                eventValue = 'Welcome to the team'
-                break
-        }
-        return new Handlebars.SafeString(eventValue)
-    })
-
     templateContents = fs.readFileSync('templates/achievements.hbs')
-
     var template = Handlebars.compile(templateContents.toString())
     const teamsPage = template({ achievements: achievements })
 

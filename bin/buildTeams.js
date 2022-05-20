@@ -1,5 +1,6 @@
 const axios = require('axios')
 const fs = require('fs')
+const Handlebars = require('./templateHelpers').templateHelpers()
 
 async function WTRLData() {
     const path = 'data/teams.json'
@@ -200,132 +201,7 @@ async function TeamRiders() {
 }
 
 async function BuildTeams(teams, eventDate, lastUpdate) {
-    const Handlebars = require('handlebars')
-
-    Handlebars.registerHelper('shortName', function (aString) {
-        return aString.replace('(', '').replace(')', '')
-    })
-
-    Handlebars.registerHelper('bannerDrop', function (aString) {
-        const parts = aString.split(' - ')
-        return parts[parts.length - 1]
-    })
-
-    Handlebars.registerHelper('isPL', function (aString, options) {
-        return aString === 'PL' ? options.fn(this) : options.inverse(this)
-    })
-
-    Handlebars.registerHelper('isComingSoon', function (aString, options) {
-        return aString === 'Coming Soon' ? options.fn(this) : options.inverse(this)
-    })
-
-    Handlebars.registerHelper('isOdd', function (val, options) {
-        return val % 2 !== 0 ? options.fn(this) : options.inverse(this)
-    })
-
-    Handlebars.registerHelper('hasRiders', function (val, options) {
-        if (val.length > 0) {
-            return options.fn(this)
-        }
-    })
-
-    Handlebars.registerHelper('category', function (mixedCat, womensCat) {
-        var mixedCategory = ''
-        switch (mixedCat) {
-            case 5:
-                mixedCategory = '<span class="badge label-cat-Aplus label-as-badge" style="font-size:8px;">A+</span>'
-                break
-            case 10:
-                mixedCategory = '<span class="badge label-cat-A label-as-badge" style="font-size:8px;">A</span>'
-                break
-            case 20:
-                mixedCategory = '<span class="badge label-cat-B label-as-badge" style="font-size:8px;">B</span>'
-                break
-            case 30:
-                mixedCategory = '<span class="badge label-cat-C label-as-badge" style="font-size:8px;">C</span>'
-                break
-            case 40:
-                mixedCategory = '<span class="badge label-cat-D label-as-badge" style="font-size:8px;">D</span>'
-                break
-            case 50:
-                mixedCategory = '<span class="badge label-cat-E label-as-badge" style="font-size:8px;">E</span>'
-                break
-        }
-        switch (womensCat) {
-            case 5:
-                mixedCategory += '&nbsp;<span class="badge label-cat-F label-as-badge" style="font-size:8px;">A+</span>'
-                break
-            case 10:
-                mixedCategory += '&nbsp;<span class="badge label-cat-F label-as-badge" style="font-size:8px;">A</span>'
-                break
-            case 20:
-                mixedCategory += '&nbsp;<span class="badge label-cat-F label-as-badge" style="font-size:8px;">B</span>'
-                break
-            case 30:
-                mixedCategory += '&nbsp;<span class="badge label-cat-F label-as-badge" style="font-size:8px;">C</span>'
-                break
-            case 40:
-                mixedCategory += '&nbsp;<span class="badge label-cat-F label-as-badge" style="font-size:8px;">D</span>'
-                break
-            case 50:
-                mixedCategory += '&nbsp;<span class="badge label-cat-F label-as-badge" style="font-size:8px;">E</span>'
-                break
-        }
-        return new Handlebars.SafeString(mixedCategory)
-    })
-
-    Handlebars.registerHelper('riderPopover', function (rider) {
-        const wattsPerKilo = rider.ftp / rider.weight
-        var riderDetails = `<strong>FTP</strong>: ${rider.ftp}<br />`
-        riderDetails += `<strong>w/kg</strong>: ${wattsPerKilo.toFixed(1)}<br />`
-        riderDetails += `<br /><a href='https://zwiftpower.com/profile.php?z=${rider.profileId}' target='_blank'>Profile</a>`
-
-        return new Handlebars.SafeString(riderDetails)
-    })
-
-    Handlebars.registerHelper('isMappedRider', function (val, options) {
-        return typeof val === 'object' ? options.fn(this) : options.inverse(this)
-    })
-
-
-    Handlebars.registerHelper('raceClass', function (raceClass) {
-        var classBadge = ''
-
-        switch (raceClass) {
-            case 'Espresso':
-                classBadge += '<span class="badge label-espresso">Espresso</span>'
-                break
-            case 'Frappe':
-                classBadge += '<span class="badge label-frappe">Frappe</span>'
-                break
-            case 'Latte':
-                classBadge += '<span class="badge label-latte">Latte</span>'
-                break
-            case 'Mocha':
-                classBadge += '<span class="badge label-mocha">Mocha</span>'
-                break
-            case 'Doppio':
-                classBadge += '<span class="badge label-vienna">Doppio</span>'
-                break
-            case 'Vienna':
-                classBadge += '<span class="badge label-vienna">Vienna</span>'
-                break
-            case 'Vienna-Frappe':
-                classBadge += '<span class="badge label-Fvienna">Vienna-Frappe</span>'
-                break
-            case 'Vienna-Latte':
-                classBadge += '<span class="badge label-Lvienna">Vienna-Latte</span>'
-                break
-            case 'Vienna-Espresso':
-                classBadge += '<span class="badge label-Evienna">Vienna-Espresso</span>'
-                break
-        }
-
-        return new Handlebars.SafeString(classBadge)
-    })
-
     templateContents = fs.readFileSync('templates/teams.hbs')
-
     var template = Handlebars.compile(templateContents.toString())
     const teamsPage = template({ teams: teams, date: eventDate, lastUpdate: lastUpdate })
 

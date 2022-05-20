@@ -1,5 +1,6 @@
 const axios = require('axios').default
 const fs = require('fs')
+const Handlebars = require('./templateHelpers').templateHelpers()
 
 // https://www.wtrl.racing/wtrl_api/wtrlttt20201021.php?wtrlid=97&&_=1614549139322
 async function WTRLData(raceID) {
@@ -101,93 +102,7 @@ async function WTRLData(raceID) {
 }
 
 async function BuildRaceResult(results, raceID, totalTeams, raceDate) {
-    const Handlebars = require('handlebars')
-
     templateContents = fs.readFileSync('templates/results.hbs')
-
-    Handlebars.registerHelper('raceClass', function (raceClass) {
-        var classBadge = ''
-
-        switch (raceClass) {
-            case 'Espresso':
-                classBadge += '<span class="badge label-espresso">Espresso</span>'
-                break
-            case 'Frappe':
-                classBadge += '<span class="badge label-frappe">Frappe</span>'
-                break
-            case 'Latte':
-                classBadge += '<span class="badge label-latte">Latte</span>'
-                break
-            case 'Mocha':
-                classBadge += '<span class="badge label-mocha">Mocha</span>'
-                break
-            case 'Doppio':
-                classBadge += '<span class="badge label-vienna">Doppio</span>'
-                break
-            case 'Vienna':
-                classBadge += '<span class="badge label-vienna">Vienna</span>'
-                break
-            case 'Vienna-Frappe':
-                classBadge += '<span class="badge label-Fvienna">Vienna-Frappe</span>'
-                break
-            case 'Vienna-Latte':
-                classBadge += '<span class="badge label-Lvienna">Vienna-Latte</span>'
-                break
-            case 'Vienna-Espresso':
-                classBadge += '<span class="badge label-Evienna">Vienna-Espresso</span>'
-                break
-        }
-
-        return new Handlebars.SafeString(classBadge)
-    })
-
-    Handlebars.registerHelper('category', function (category) {
-        var categoryBadge = ''
-        switch (category) {
-            case 5:
-                categoryBadge = '<span class="badge label-cat-Aplus label-as-badge" style="font-size:8px;">A+</span>'
-                break
-            case 10:
-                categoryBadge = '<span class="badge label-cat-A label-as-badge" style="font-size:8px;">A</span>'
-                break
-            case 20:
-                categoryBadge = '<span class="badge label-cat-B label-as-badge" style="font-size:8px;">B</span>'
-                break
-            case 30:
-                categoryBadge = '<span class="badge label-cat-C label-as-badge" style="font-size:8px;">C</span>'
-                break
-            case 40:
-                categoryBadge = '<span class="badge label-cat-D label-as-badge" style="font-size:8px;">D</span>'
-                break
-            case 50:
-                categoryBadge = '<span class="badge label-cat-E label-as-badge" style="font-size:8px;">E</span>'
-                break
-        }
-        return new Handlebars.SafeString(categoryBadge)
-    })
-
-    Handlebars.registerHelper('classTotal', function (raceClass, classCounts) {
-        var classCount = '?'
-        var classSummary = classCounts.find(r => r.class === raceClass)
-        if (classSummary) {
-            classCount = classSummary.teamCount
-        }
-
-        return classCount
-    })
-
-    Handlebars.registerHelper('teamShrink', function (teamName) {
-        return teamName.replace('Sunrise Racing Team', 'SRT').replace(' ', '')
-    })
-
-    Handlebars.registerHelper('timeConvert', function (timeInSeconds, dnf) {
-        return dnf == 1 ? new Handlebars.SafeString(secondsToTime(timeInSeconds)) : 'DNF'
-    })
-
-    Handlebars.registerHelper('isOdd', function (val, options) {
-        return val % 2 !== 0 ? options.fn(this) : options.inverse(this)
-    })
-
     var template = Handlebars.compile(templateContents.toString())
     const resultPage = template({ results: results, raceID: raceID, totalTeams: totalTeams, raceDate: raceDate })
 
@@ -195,65 +110,7 @@ async function BuildRaceResult(results, raceID, totalTeams, raceDate) {
 }
 
 async function BuildRiderResults(riderSummary, raceCategories) {
-    const Handlebars = require('handlebars')
-
     templateContents = fs.readFileSync('templates/raceRuns.hbs')
-
-    Handlebars.registerHelper('raceClass', function (raceClass) {
-        var classBadge = ''
-
-        switch (raceClass) {
-            case 'Espresso':
-                classBadge += '<span class="badge label-espresso">Espresso</span>'
-                break
-            case 'Frappe':
-                classBadge += '<span class="badge label-frappe">Frappe</span>'
-                break
-            case 'Latte':
-                classBadge += '<span class="badge label-latte">Latte</span>'
-                break
-            case 'Mocha':
-                classBadge += '<span class="badge label-mocha">Mocha</span>'
-                break
-            case 'Doppio':
-                classBadge += '<span class="badge label-vienna">Doppio</span>'
-                break
-            case 'Vienna':
-                classBadge += '<span class="badge label-vienna">Vienna</span>'
-                break
-            case 'Vienna-Frappe':
-                classBadge += '<span class="badge label-Fvienna">Vienna-Frappe</span>'
-                break
-            case 'Vienna-Latte':
-                classBadge += '<span class="badge label-Lvienna">Vienna-Latte</span>'
-                break
-            case 'Vienna-Espresso':
-                classBadge += '<span class="badge label-Evienna">Vienna-Espresso</span>'
-                break
-            default:
-                classBadge += raceClass
-                break
-        }
-
-        return new Handlebars.SafeString(classBadge)
-    })
-
-    Handlebars.registerHelper('isOdd', function (val, options) {
-        return val % 2 !== 0 ? options.fn(this) : options.inverse(this)
-    })
-
-    Handlebars.registerHelper('categoryCount', function (races, category) {
-        var raceCount = 0
-        
-        var catCount = races.find(r => r.class === category) 
-
-        if (catCount) {
-            raceCount = catCount.count
-        }
-
-        return raceCount
-    })
-
     var template = Handlebars.compile(templateContents.toString())
     const resultPage = template({ riderSummary: riderSummary, raceCategories: raceCategories })
 
@@ -262,54 +119,11 @@ async function BuildRiderResults(riderSummary, raceCategories) {
 
 
 async function BuildRaceResultsSummary(result, years) {
-    const Handlebars = require('handlebars')
-
     templateContents = fs.readFileSync('templates/results-summary.hbs')
-
-    Handlebars.registerHelper('isNewRow', function (val, options) {
-        if (val % 4 === 0)  {
-            return options.fn(this)
-        }
-    })
-
-    Handlebars.registerHelper('isEndRow', function (val, length, options) {
-        if (val === 0 && length !== 1) {
-            return options.inverse(this)
-        }
-        if (val + 1 === length) {
-            return options.fn(this)
-        }
-        if ((val+1) % 4 === 0)  {
-            return options.fn(this)
-        }
-    })
-
-    Handlebars.registerHelper('isOdd', function (val, options) {
-        return val % 2 !== 0 ? options.fn(this) : options.inverse(this)
-    })
-
     var template = Handlebars.compile(templateContents.toString())
     const teamsPage = template({ result: result, years: years })
 
     fs.writeFileSync(`site/results.html`, teamsPage, 'utf8')
-}
-
-function secondsToTime(timeInSeconds) {
-    const pad = function (num, size) { return ('000' + num).slice(size * -1) }
-    const time = parseFloat(timeInSeconds).toFixed(3)
-    const hours = ~~(time / 60 / 60)
-    const minutes = ~~(time / 60) % 60
-    const seconds = ~~(time - minutes * 60) % 60
-    const milliseconds = time.slice(-3)
-
-    var formattedTime = ''
-    if (hours > 0) {
-        formattedTime += hours + 'h' + (minutes > 0 ? pad(minutes, 2) + ':' : '00:')
-    } else if (minutes > 0) {
-        formattedTime += minutes + ':'
-    }
-    formattedTime += (formattedTime !== '' ? pad(seconds, 2) : seconds) + '.<small>' + pad(milliseconds, 3) + '</small>'
-    return formattedTime
 }
 
 function raceDate(raceID) {
