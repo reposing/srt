@@ -261,13 +261,35 @@ async function BuildRiderResults(riderSummary, raceCategories) {
 }
 
 
-async function BuildRaceResultsSummary(result) {
+async function BuildRaceResultsSummary(result, years) {
     const Handlebars = require('handlebars')
 
     templateContents = fs.readFileSync('templates/results-summary.hbs')
 
+    Handlebars.registerHelper('isNewRow', function (val, options) {
+        if (val % 4 === 0)  {
+            return options.fn(this)
+        }
+    })
+
+    Handlebars.registerHelper('isEndRow', function (val, length, options) {
+        if (val === 0 && length !== 1) {
+            return options.inverse(this)
+        }
+        if (val + 1 === length) {
+            return options.fn(this)
+        }
+        if ((val+1) % 4 === 0)  {
+            return options.fn(this)
+        }
+    })
+
+    Handlebars.registerHelper('isOdd', function (val, options) {
+        return val % 2 !== 0 ? options.fn(this) : options.inverse(this)
+    })
+
     var template = Handlebars.compile(templateContents.toString())
-    const teamsPage = template({ result: result })
+    const teamsPage = template({ result: result, years: years })
 
     fs.writeFileSync(`site/results.html`, teamsPage, 'utf8')
 }
@@ -297,6 +319,25 @@ function raceDate(raceID) {
     return raceDate.getFullYear() + "-" + (raceDate.getMonth() + 1).toString().padStart(2, '0') + "-" + raceDate.getDate().toString().padStart(2, '0')
 }
 
+function raceDateExtra(raceID) {
+    const weeksToAdd = raceID - 74
+    var raceDate = new Date(2020, 08, 17)
+    raceDate.setDate(raceDate.getDate() + (7 * weeksToAdd))
+
+    result = {
+        raceDate: raceDate,
+        raceDateString: raceDate.getFullYear() + "-" + (raceDate.getMonth() + 1).toString().padStart(2, '0') + "-" + raceDate.getDate().toString().padStart(2, '0'),
+    }
+    return result
+}
+
+function FindLatestRaceId() {
+    const now = new Date(2022, 04, 25)
+    var firstWeek = new Date(2020, 08, 17)
+    weeks = Math.floor((now - firstWeek) / (7 * 24 * 60 * 60 * 1000))
+    return weeks + 74
+}
+
 async function RiderProfiles() {
     const path = `data/profiles.json`
     var profiles
@@ -319,7 +360,8 @@ async function RiderProfiles() {
 
     const profiles = await RiderProfiles()
 
-    for (i = 74; i <= 160; i++) {
+    var latestRaceId = FindLatestRaceId()
+    for (i = 74; i <= latestRaceId; i++) {
         const results = await WTRLData(i)
         totalTeams = results.classes.reduce((a, b) => a + b.teamCount, 0)
         for (const result of results.teams) {
@@ -376,11 +418,38 @@ async function RiderProfiles() {
         BuildRaceResult(results, i, totalTeams, raceDate(i))
         resultSummary.push({
             raceID: i,
-            raceDate: raceDate(i)
+            raceDate: raceDate(i),
+            raceDetails: raceDateExtra(i)
         })
     }
 
-    await BuildRaceResultsSummary(resultSummary.reverse())
+    var years = []
+
+    for (var result of resultSummary) {
+        var year = years.find(r => r.year === result.raceDetails.raceDate.getFullYear()) 
+
+        if (year === undefined) {
+            year = {
+                year: result.raceDetails.raceDate.getFullYear()
+            }
+            year.months = []
+            years.unshift(year)
+        }
+
+        var month = year.months.find(r => r.month === result.raceDetails.raceDate.getMonth())
+        if (month === undefined) {
+            month = {
+                month: result.raceDetails.raceDate.getMonth()
+            }
+            month.name = new Intl.DateTimeFormat('en-GB', { month: 'long' }).format(result.raceDetails.raceDate)
+            month.races = []
+            year.months.unshift(month)
+        }
+        
+        month.races.unshift(result)
+    }
+
+    await BuildRaceResultsSummary(resultSummary.reverse(), years)
 
     riderSummary.sort((a, b) => b.count - a.count)
     raceCategories.sort((a, b) => a.localeCompare(b))
