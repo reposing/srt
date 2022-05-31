@@ -146,7 +146,7 @@ function raceDateExtra(raceID) {
 }
 
 function FindLatestRaceId() {
-    const now = new Date(2022, 04, 25)
+    const now = new Date()
     var firstWeek = new Date(2020, 08, 17)
     weeks = Math.floor((now - firstWeek) / (7 * 24 * 60 * 60 * 1000))
     return weeks + 74
