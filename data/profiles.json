@@ -677,5 +677,19 @@
     "zwiftId": "27a4bff3-db60-4488-9514-5c744dc3fb51",
     "zwiftPicture": "9cea5266-2004218",
     "strava": ""
+  },
+  {
+    "profileId": 1989544,
+    "name": "Lara Middleton",
+    "zwiftId": "8367712c-3907-4abb-9fc4-773a5de808e9",
+    "zwiftPicture": "2c625954-1811559",
+    "strava": "20391497"
+  },
+  {
+    "profileId": 1516069,
+    "name": "Simon Maguire",
+    "zwiftId": "40723154-b7ec-430f-8b53-275888bf475a",
+    "zwiftPicture": "049e329e-798959",
+    "strava": ""
   }
 ]
