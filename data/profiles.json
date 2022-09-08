@@ -691,5 +691,33 @@
     "zwiftId": "40723154-b7ec-430f-8b53-275888bf475a",
     "zwiftPicture": "049e329e-798959",
     "strava": ""
+  },
+  {
+    "profileId": 1967430,
+    "name": "Ben Allen",
+    "zwiftId": "41f38049-f6e8-4380-9fd7-0e1eca3973c4",
+    "zwiftPicture": "dbee8bce-1196878",
+    "strava": "6505874"
+  },
+  {
+    "profileId": 272388,
+    "name": "Jeff Graham",
+    "zwiftId": "324326ee-daf9-47e7-9d41-4a091a77c24e",
+    "zwiftPicture": "bf3e31fc-189163",
+    "strava": ""
+  },
+  {
+    "profileId": 3665031,
+    "name": "Alex Duthie",
+    "zwiftId": "cd8787af-8981-4723-8d0a-cb70fa0d4c49",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 40015,
+    "name": "Dan Speed",
+    "zwiftId": "f4f532b2-7d01-42eb-a718-83aaa9983ff5",
+    "zwiftPicture": "5086ce26-17458",
+    "strava": "11688416"
   }
 ]
