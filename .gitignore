@@ -12,5 +12,9 @@ data/signups*.json
 data/riderHistory.json
 data/honourRoll.json
 data/results
+data/11789_riders.json
+
+bin/wtrlDataExtract.js
+bin/zpDataExtract.js
 
 **/.DS_Store
