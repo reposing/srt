@@ -719,5 +719,26 @@
     "zwiftId": "f4f532b2-7d01-42eb-a718-83aaa9983ff5",
     "zwiftPicture": "5086ce26-17458",
     "strava": "11688416"
+  },
+  {
+    "profileId": 568617,
+    "name": "Rob Tanner",
+    "zwiftId": "4c7e8193-f057-4a79-a541-3f85c236bdee",
+    "zwiftPicture": "a3fa278c-307891",
+    "strava": ""
+  },
+  {
+    "profileId": 1610367,
+    "name": "David Goodall",
+    "zwiftId": "c3f3974e-eeab-45e6-9743-658aa3f0480d",
+    "zwiftPicture": "4e2009f9-842079",
+    "strava": "589806"
+  },
+  {
+    "profileId": 3048223,
+    "name": "Stephen Pallister",
+    "zwiftId": "1d52574a-5c19-4089-9bab-3c32f2b7e5e4",
+    "zwiftPicture": "7c4160d7-1936156",
+    "strava": "9308347"
   }
 ]
