@@ -230,11 +230,14 @@ async function RiderProfiles() {
         }
 
         BuildRaceResult(results, i, totalTeams, raceDate(i))
-        resultSummary.push({
-            raceID: i,
-            raceDate: raceDate(i),
-            raceDetails: raceDateExtra(i)
-        })
+        if (results.teams.length !== 0) {
+            resultSummary.push({
+                raceID: i,
+                raceDate: raceDate(i),
+                raceDetails: raceDateExtra(i)
+            })
+        }
+
     }
 
     var years = []
