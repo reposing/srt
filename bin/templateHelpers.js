@@ -148,6 +148,7 @@ exports.templateHelpers = function () {
         if (riderDetail == null) {
             console.log(profile.profileId)
         }
+
         var detail = `FTP: ${riderDetail.ftp} w | ${categoryBadge(riderDetail.mixedCategory)}`
         if (riderDetail.womensCategory !== 0) {
             detail += ` ${categoryBadge(riderDetail.womensCategory)}`

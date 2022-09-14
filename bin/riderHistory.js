@@ -115,38 +115,42 @@ async function BuildAchievments(achievements) {
                 riderDetails.ftpHistory.push({ date: runDate, ftp: teamRider.ftp })
             }
             if (riderDetails.mixedCategory != teamRider.mixedCategory) {
-                console.log(`Mixed Cat Change: ${riderDetails.mixedCategory} -> ${teamRider.mixedCategory}`)
+                if (teamRider.mixedCategory != 0) {
+                    console.log(`Mixed Cat Change: ${riderDetails.mixedCategory} -> ${teamRider.mixedCategory}`)
 
-                if (riderDetails.mixedCategory > teamRider.mixedCategory) {
-                    honourRoll.push({
-                        date: runDate,
-                        eventType: 'mixedCategoryChange',
-                        eventData: {
-                            name: teamRider.name,
-                            profileId: teamRider.profileId,
-                            oldCategory: riderDetails.mixedCategory,
-                            newCategory: teamRider.mixedCategory
-                        }
-                    })
+                    if (riderDetails.mixedCategory > teamRider.mixedCategory) {
+                        honourRoll.push({
+                            date: runDate,
+                            eventType: 'mixedCategoryChange',
+                            eventData: {
+                                name: teamRider.name,
+                                profileId: teamRider.profileId,
+                                oldCategory: riderDetails.mixedCategory,
+                                newCategory: teamRider.mixedCategory
+                            }
+                        })
+                    }
                 }
 
                 riderDetails.mixedCategory = teamRider.mixedCategory
                 riderDetails.mixedCategoryHistory.push({ date: runDate, mixedCategory: teamRider.mixedCategory })
             }
             if (riderDetails.womensCategory != teamRider.womensCategory) {
-                console.log(`Womens Cat Change: ${riderDetails.womensCategory} -> ${teamRider.womensCategory}`)
+                if (teamRider.womensCategory != 0) {
+                    console.log(`Womens Cat Change: ${riderDetails.womensCategory} -> ${teamRider.womensCategory}`)
 
-                if (riderDetails.womensCategory > teamRider.womensCategory) {
-                    honourRoll.push({
-                        date: runDate,
-                        eventType: 'womensCategoryChange',
-                        eventData: {
-                            name: teamRider.name,
-                            profileId: teamRider.profileId,
-                            oldCategory: riderDetails.womensCategory,
-                            newCategory: teamRider.womensCategory
-                        }
-                    })
+                    if (riderDetails.womensCategory > teamRider.womensCategory) {
+                        honourRoll.push({
+                            date: runDate,
+                            eventType: 'womensCategoryChange',
+                            eventData: {
+                                name: teamRider.name,
+                                profileId: teamRider.profileId,
+                                oldCategory: riderDetails.womensCategory,
+                                newCategory: teamRider.womensCategory
+                            }
+                        })
+                    }
                 }
 
                 riderDetails.womensCategory = teamRider.womensCategory
