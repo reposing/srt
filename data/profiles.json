@@ -728,13 +728,6 @@
     "strava": ""
   },
   {
-    "profileId": 1610367,
-    "name": "David Goodall",
-    "zwiftId": "c3f3974e-eeab-45e6-9743-658aa3f0480d",
-    "zwiftPicture": "4e2009f9-842079",
-    "strava": "589806"
-  },
-  {
     "profileId": 3048223,
     "name": "Stephen Pallister",
     "zwiftId": "1d52574a-5c19-4089-9bab-3c32f2b7e5e4",
@@ -749,10 +742,24 @@
     "strava": ""
   },
   {
-    "profileId": 522264,
-    "name": "Nick Brookes",
-    "zwiftId": "9029f756-57a5-43a1-ba87-2cf306da0c63",
-    "zwiftPicture": "",
+    "profileId": 2172829,
+    "name": "Chris Banksie",
+    "zwiftId": "5b3fde9f-e542-44e7-a55d-a5597daaea28",
+    "zwiftPicture": "d04b7a38-1159557",
+    "strava": "3432468"
+  },
+  {
+    "profileId": 2885943,
+    "name": "Damien Gunby",
+    "zwiftId": "b1257f3a-dc34-475b-a4a0-342d4e7cfdc7",
+    "zwiftPicture": "e2fcc446-2061870",
     "strava": ""
+  },
+  {
+    "profileId": 472757,
+    "name": "Gavin Stockman",
+    "zwiftId": "9015e571-ff53-4a2c-92f8-9d1bcd6dc7ad",
+    "zwiftPicture": "0adda375-261452",
+    "strava": "4954823"
   }
 ]
