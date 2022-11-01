@@ -768,5 +768,61 @@
     "zwiftId": "5529b617-5d99-4b9a-8a4c-541f936ad0cf",
     "zwiftPicture": "",
     "strava": ""
+  },
+  {
+    "profileId": 4308498,
+    "name": "BT Best",
+    "zwiftId": "d2e52f99-3387-4364-9f5b-069d57dc1e58",
+    "zwiftPicture": "66221a60-2164602",
+    "strava": "89431223"
+  },
+  {
+    "profileId": 12032,
+    "name": "David Rowe",
+    "zwiftId": "796eee4a-b7ce-4943-b1d3-9fae8af5dedb",
+    "zwiftPicture": "0db3daff-1512666",
+    "strava": "136209"
+  },
+  {
+    "profileId": 3136848,
+    "name": "Guy Mayger",
+    "zwiftId": "18f03ac4-4615-47bf-b894-1377504f5f1e",
+    "zwiftPicture": "bff07505-1665813",
+    "strava": ""
+  },
+  {
+    "profileId": 3469586,
+    "name": "Steve Coe",
+    "zwiftId": "f26c87a0-8902-4290-9d0b-4aebd126531e",
+    "zwiftPicture": "fc81030f-1856311",
+    "strava": ""
+  },
+  {
+    "profileId": 214211,
+    "name": "Andrew Willett",
+    "zwiftId": "8a5125fd-c8d2-4054-b719-e4df831ba613",
+    "zwiftPicture": "fe199138-2125684",
+    "strava": "1116993"
+  },
+  {
+    "profileId": 450845,
+    "name": "Ashley Kerby",
+    "zwiftId": "e1be1b34-afb7-4742-9ec5-5a2b6ec40b2e",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 420763,
+    "name": "Dom Norton",
+    "zwiftId": "011ae6af-5df2-49a8-abd4-c354f0d6f875",
+    "zwiftPicture": "6177b37d-814748",
+    "strava": ""
+  },
+  {
+    "profileId": 2620599,
+    "name": "Richard Sullivan",
+    "zwiftId": "906fdff4-d5dd-482d-a434-a1a8b367b2a4",
+    "zwiftPicture": "ace0afa8-1423198",
+    "strava": "628235"
   }
 ]
