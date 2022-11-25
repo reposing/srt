@@ -838,5 +838,26 @@
     "zwiftId": "10638d1f-4bd9-404f-bb3e-d8a3434c6729",
     "zwiftPicture": "4d7a35ab-1480351",
     "strava": ""
+  },
+  {
+    "profileId": 1410840,
+    "name": "Patrick Ris",
+    "zwiftId": "0acabcd0-61ef-47e8-8fca-e7753549db30",
+    "zwiftPicture": "802e8713-766615",
+    "strava": ""
+  },
+  {
+    "profileId": 2086687,
+    "name": "Coach Kevin",
+    "zwiftId": "c36da9ad-b8cd-4e52-8c65-bf903ebcc4f2",
+    "zwiftPicture": "022e6027-1139395",
+    "strava": "3867772"
+  },
+  {
+    "profileId": 2644230,
+    "name": "Ray Geor",
+    "zwiftId": "ae319478-a380-4e9c-97ac-2480534f69cd",
+    "zwiftPicture": "ea718135-1058085",
+    "strava": "535564"
   }
 ]
