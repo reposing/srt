@@ -866,5 +866,19 @@
     "zwiftId": "76cfdf4b-625b-4e22-b001-224cb1c9127a",
     "zwiftPicture": "b5ae2e0d-435427",
     "strava": "461781"
+  },
+  {
+    "profileId": 219423,
+    "name": "Alex Burri",
+    "zwiftId": "4fcf9e89-79f8-4759-a7fd-3e7d35e19833",
+    "zwiftPicture": "8b36a931-280154",
+    "strava": ""
+  },
+  {
+    "profileId": 4404561,
+    "name": "Ciocoiu Ovidiu",
+    "zwiftId": "bd9002b0-4e11-44c1-a8b2-0caf8fb1993d",
+    "zwiftPicture": "b1c67df3-2215992",
+    "strava": "2879045"
   }
 ]

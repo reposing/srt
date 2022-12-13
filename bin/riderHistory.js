@@ -87,6 +87,16 @@ async function BuildAchievments(achievements) {
         console.error(err)
     }
 
+    const profilesPath = `data/profiles.json`
+    var profiles
+    try {
+        if (fs.existsSync(profilesPath)) {
+            profiles = JSON.parse(fs.readFileSync(profilesPath, 'utf8'))
+        }
+    } catch (err) {
+        console.error(err)
+    }
+
     const teamRiders = await TeamRiders()
 
     for (const teamRider of teamRiders) {
@@ -171,6 +181,14 @@ async function BuildAchievments(achievements) {
                     profileId: teamRider.profileId
                 }
             })
+
+            profiles.push({
+                profileId: teamRider.profileId,
+                name: teamRider.name,
+                zwiftId: "",
+                zwiftPicture: "",
+                strava: ""            
+            })
         }
     }
 
@@ -178,6 +196,7 @@ async function BuildAchievments(achievements) {
 
     fs.writeFileSync(riderHistoryPath, JSON.stringify(riders, null, 2), 'utf8')
     fs.writeFileSync(honourRollPath, JSON.stringify(honourRoll, null, 2), 'utf8')
+    fs.writeFileSync(profilesPath, JSON.stringify(profiles, null, 2), 'utf8')
 
     honourRoll.sort((a, b) => new Date(b.date) - new Date(a.date))
 
