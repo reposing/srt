@@ -13,6 +13,7 @@ data/riderHistory.json
 data/honourRoll.json
 data/results
 data/11789_riders.json
+data/zrl
 
 bin/wtrlDataExtract.js
 bin/zpDataExtract.js

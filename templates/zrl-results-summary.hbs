@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sunrise Racing Team">
+    <meta name="author" content="Steve Norman">
+    <meta name="generator" content="Me">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Sunrise Racing Team</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="./css/srt.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-swedishblue fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/name.png" height="30" alt="Sunrise Racing Team">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownEvents" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownEvents">
+                <li><a class="dropdown-item" href="events.html">Upcoming WTRL TTT Races</a></li>
+                <li><a class="dropdown-item" href="results.html">WTRL TTT Results</a></li>
+                <li><a class="dropdown-item" href="zrlresults.html">ZRL Results</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownRiders" data-bs-toggle="dropdown" aria-expanded="false">Riders</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownRiders">
+                <li><a class="dropdown-item" href="profiles.html">Profiles</a></li>
+                <li><a class="dropdown-item" href="achievements.html">Achievements</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownPrep" data-bs-toggle="dropdown" aria-expanded="false">Race Preparation</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownPrep">
+                <li><a class="dropdown-item" href="firstrace.html">First Race</a></li>
+                <li><a class="dropdown-item" href="everyrace.html">Every Race</a></li>
+                <li><a class="dropdown-item" href="coursenotes.html">Course Notes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+        <div class="row">
+          <div class="col">
+              <h1>ZRL {{season}}</h1>
+          </div>
+          <div class="col text-end">
+              <a href="zrl-archive.html">Archive</a>
+          </div>
+        </div>
+        <div class="pt-3">
+            <div class="row border bg-swedishblue fg-swedishyellow">
+                <div class="col border">
+                    Division
+                </div>
+                <div class="col border">
+                    Team
+                </div>
+                <div class="col border">
+                    Rank
+                </div>
+                <div class="col border d-none d-sm-block">
+                    # Events
+                </div>
+                <div class="col border d-none d-lg-block">
+                    FAL Points
+                </div>
+                <div class="col border d-none d-lg-block">
+                    FTS Points
+                </div>
+                <div class="col border d-none d-lg-block">
+                    FIN Points
+                </div>
+                <div class="col border">
+                    Series Points
+                </div>
+            </div>
+
+            {{#each standings}}
+            {{#isOdd @index}}
+            <div class="row border bg-secondary">
+            {{else}}
+            <div class="row border">
+            {{/isOdd}}
+                <div class="col border">
+                    {{division}}
+                </div>
+                <div class="col border">
+                    {{teamShrink standing.d}}
+                </div>
+                <div class="col border">
+                    {{standing.c}}
+                </div>
+                <div class="col border d-none d-sm-block">
+                    {{standing.l}}
+                </div>
+                <div class="col border d-none d-lg-block">
+                    {{standing.e}}
+                </div>
+                <div class="col border d-none d-lg-block">
+                    {{standing.k}}
+                </div>
+                <div class="col border d-none d-lg-block">
+                    {{standing.i}}
+                </div>
+                <div class="col border">
+                    {{standing.j}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+        <h1 class="pt-3">Rider Contributions</h1>
+        {{#each riderContributions}}
+        <h3 class="pt-2">{{name}}</h3>
+        <div class="pt-1">
+          <div class="row border bg-swedishblue fg-swedishyellow">
+              <div class="col border">
+                  Rider
+              </div>
+              <div class="col border d-none d-sm-block">
+                  # Events
+              </div>
+              <div class="col border d-none d-lg-block">
+                  FAL Points
+              </div>
+              <div class="col border d-none d-lg-block">
+                  FTS Points
+              </div>
+              <div class="col border d-none d-lg-block">
+                  FIN Points
+              </div>
+              <div class="col border">
+                  Series Points
+              </div>
+          </div>
+          {{#each riders}}
+          {{#isOdd @index}}
+          <div class="row border bg-secondary">
+          {{else}}
+          <div class="row border">
+          {{/isOdd}}
+            <div class="col border">
+              {{#if displayName}}
+              {{displayName}}
+              {{else}}
+              {{name}}
+              {{/if}}
+            </div>
+            <div class="col border d-none d-sm-block">
+              {{events}}
+            </div>
+            <div class="col border d-none d-lg-block">
+              {{raceResults fal}}
+            </div>
+            <div class="col border d-none d-lg-block">
+              {{raceResults fts}}
+            </div>
+            <div class="col border d-none d-lg-block">
+              {{raceResults fin}}
+            </div>
+            <div class="col border">
+              {{total}}
+            </div>
+          </div>
+          {{/each}}
+        </div>
+        {{/each}}
+
+    </main><!-- /.container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
