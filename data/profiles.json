@@ -887,5 +887,19 @@
     "zwiftId": "479768f1-2a93-4d0e-b3ca-04caf33b3991",
     "zwiftPicture": "67156055-2357229",
     "strava": ""
+  },
+  {
+    "profileId": 1865245,
+    "name": "Chris Gibson",
+    "zwiftId": "4d0c62e0-4446-4899-a1b5-8d7d2b9d4e89",
+    "zwiftPicture": "2b92f9f1-990934",
+    "strava": ""
+  },
+  {
+    "profileId": 17288,
+    "name": "Paul Speed",
+    "zwiftId": "6d060886-02f2-4387-a6ff-84faf9d095ae",
+    "zwiftPicture": "b9861761-3340",
+    "strava": "148437"
   }
 ]
