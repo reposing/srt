@@ -107,11 +107,14 @@
                     <th data-field="fal" data-sortable="true" data-sort-name="fal" data-sort-order="desc">FAL</th>
                     <th data-field="fts" data-sortable="true" data-sort-name="fts" data-sort-order="desc">FTS</th>
                     <th data-field="fin" data-sortable="true" data-sort-name="fin" data-sort-order="desc">FIN</th>
-                    <th data-field="total" data-sortable="true" data-sort-name="total" data-sort-order="desc">Total</th>
+                    <th data-field="total" data-sortable="true" data-sort-name="total" data-sort-order="desc" data-formatter="totalFormatter">Total</th>
                 </tr>
             </thead>
         </table>
 
+        <div>
+          * - Total points will be less as they are adjusted due to technical infringements or failing to finish a race.
+        </div>
 
 
     </main><!-- /.container -->
@@ -127,7 +130,7 @@
 
   $(function() {
     var data = [
-    {{#each riderTotalContributions}}{'displayName': '{{displayName}}','events': {{events}},'fal': {{fal}},'fts': {{fts}},'fin': {{fin}},'total': {{total}},},{{/each}}
+    {{#each riderTotalContributions}}{'displayName': '{{displayName}}','events': {{events}},'fal': {{fal}},'fts': {{fts}},'fin': {{fin}},'total': {{total}},'issues': {{issues}},},{{/each}}
     ]
     $table.bootstrapTable({data: data})
   })
@@ -143,6 +146,14 @@
       }
     }
   }
+
+  function totalFormatter(value, row) {
+    if (row.issues) {
+      return value + '*'
+    }
+    return value 
+  }
+
 </script>
 </body>
 
