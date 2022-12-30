@@ -17,5 +17,6 @@ data/zrl
 
 bin/wtrlDataExtract.js
 bin/zpDataExtract.js
+bin/buildZRLResults.js
 
 **/.DS_Store
