@@ -819,13 +819,6 @@
     "strava": "628235"
   },
   {
-    "profileId": 176298,
-    "name": "Will Matthews",
-    "zwiftId": "ae8af126-c475-4b49-ba1b-3bd1c3f0ff96",
-    "zwiftPicture": "8f11ed06-107460",
-    "strava": ""
-  },
-  {
     "profileId": 2644230,
     "name": "Ray Geor",
     "zwiftId": "10638d1f-4bd9-404f-bb3e-d8a3434c6729",
@@ -901,5 +894,12 @@
     "zwiftId": "6d060886-02f2-4387-a6ff-84faf9d095ae",
     "zwiftPicture": "b9861761-3340",
     "strava": "148437"
+  },
+  {
+    "profileId": 4646347,
+    "name": "Phoebe Law",
+    "zwiftId": "a854d068-719d-4c25-8c43-de31d6dbcb29",
+    "zwiftPicture": "444119da-2526608",
+    "strava": "96033624"
   }
 ]
