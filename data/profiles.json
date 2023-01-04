@@ -901,5 +901,19 @@
     "zwiftId": "a854d068-719d-4c25-8c43-de31d6dbcb29",
     "zwiftPicture": "444119da-2526608",
     "strava": "96033624"
+  },
+  {
+    "profileId": 5311159,
+    "name": "Robert Bradley",
+    "zwiftId": "24d5413a-8f7c-4219-89ab-2eb251b6c463",
+    "zwiftPicture": "",
+    "strava": "672931"
+  },
+  {
+    "profileId": 5459307,
+    "name": "Samuel Gowland",
+    "zwiftId": "4ac21afc-ecc8-401f-ae48-386ad6bdbc99",
+    "zwiftPicture": "835af5d0-2649415",
+    "strava": ""
   }
 ]
