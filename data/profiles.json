@@ -936,5 +936,40 @@
     "zwiftId": "9769c6c9-d729-4caa-990e-131456796b01",
     "zwiftPicture": "bc61533f-228214",
     "strava": "4836718"
+  },
+  {
+    "profileId": 2697905,
+    "name": "Andrew Jansson",
+    "zwiftId": "9480a0be-6b28-469c-be14-9e68034edda5",
+    "zwiftPicture": "d6af6cba-1481503",
+    "strava": ""
+  },
+  {
+    "profileId": 934766,
+    "name": "Ian Horritt",
+    "zwiftId": "ec2487f6-8136-4571-a244-1f4650805c4f",
+    "zwiftPicture": "f45153c9-2308173",
+    "strava": ""
+  },
+  {
+    "profileId": 5206228,
+    "name": "Jakey Jake",
+    "zwiftId": "b38221f6-6fbd-4299-9ae1-e7fc05628508",
+    "zwiftPicture": "1b8ad1fe-2541101",
+    "strava": ""
+  },
+  {
+    "profileId": 4443606,
+    "name": "Matt B",
+    "zwiftId": "d3c6ccd6-abc4-4817-9e87-2c436c328e6b",
+    "zwiftPicture": "adfd9e3b-2481555",
+    "strava": ""
+  },
+  {
+    "profileId": 4226096,
+    "name": "Martin Raudnic",
+    "zwiftId": "0e8133d5-249e-4302-9dad-c34b64744234",
+    "zwiftPicture": "83f9798e-2185875",
+    "strava": "14481698"
   }
 ]
