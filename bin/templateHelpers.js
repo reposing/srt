@@ -95,6 +95,10 @@ exports.templateHelpers = function () {
         return teamName.replace('Sunrise Racing Team', 'SRT').replace(' ', '')
     })
 
+    Handlebars.registerHelper('teamShrinkTruncate', function (teamName) {
+        return teamName.replace('Sunrise Racing Team', 'SRT')
+    })
+
     Handlebars.registerHelper('timeConvert', function (timeInSeconds, dnf) {
         return dnf == 1 ? new Handlebars.SafeString(secondsToTime(timeInSeconds)) : 'DNF'
     })
@@ -305,6 +309,26 @@ exports.templateHelpers = function () {
         }
         return new Handlebars.SafeString(eventValue)
     })
+
+    Handlebars.registerHelper('statConvert', function (stat, isTTT) {
+        if (isTTT) {
+            if (stat == null) {
+                return Handlebars.SafeString('')
+            }
+            return new Handlebars.SafeString(secondsToTime(stat))
+        }
+        return stat
+    })
+
+    Handlebars.registerHelper('raceResults', function (riderResults) {
+        return riderResults.join(' / ')
+    })
+
+    Handlebars.registerHelper("inc", function(value, options)
+    {
+        return parseInt(value) + 1
+    })
+
 
     return Handlebars
 }
