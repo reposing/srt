@@ -978,5 +978,19 @@
     "zwiftId": "f1872ec7-7b49-419d-a44a-02409f38bc8a",
     "zwiftPicture": "0730b595-1978039",
     "strava": "21373336"
+  },
+  {
+    "profileId": 1190817,
+    "name": "Pete Dillon (SRT)",
+    "zwiftId": "5c4b92cc-b8ae-4225-88de-daeb47f8dc89",
+    "zwiftPicture": "e2fdb147-917743",
+    "strava": ""
+  },
+  {
+    "profileId": 4152175,
+    "name": "Tim  Skelton (SRT)",
+    "zwiftId": "cab97522-7200-4886-a035-59597a1800fd",
+    "zwiftPicture": "b31d44de-2209844",
+    "strava": ""
   }
 ]
