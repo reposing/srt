@@ -330,6 +330,29 @@ exports.templateHelpers = function () {
     })
 
 
+    Handlebars.registerHelper("leaguePositionChange", function(currentPosition, oldPosition)
+    {
+        current = parseInt(currentPosition)
+        old = parseInt(oldPosition)
+
+        if (isNaN(current) || isNaN(old)) {
+            return
+        }
+
+        var changeClass = ''
+        if (current < old) {
+            changeClass = "text-success"
+        } else if (current > old) {
+            changeClass = "text-danger"
+        } else {
+            changeClass = "text-warning"
+        }
+
+        value = `<span class="${changeClass}"> (${old})</span>`
+        return new Handlebars.SafeString(value)
+    })
+
+
     return Handlebars
 }
 
