@@ -974,23 +974,37 @@
   },
   {
     "profileId": 3478699,
-    "name": "Paul Warren [SRT/ART]",
+    "name": "Paul Warren",
     "zwiftId": "f1872ec7-7b49-419d-a44a-02409f38bc8a",
     "zwiftPicture": "0730b595-1978039",
     "strava": "21373336"
   },
   {
     "profileId": 1190817,
-    "name": "Pete Dillon (SRT)",
+    "name": "Pete Dillon",
     "zwiftId": "5c4b92cc-b8ae-4225-88de-daeb47f8dc89",
     "zwiftPicture": "e2fdb147-917743",
     "strava": ""
   },
   {
     "profileId": 4152175,
-    "name": "Tim  Skelton (SRT)",
+    "name": "Tim Skelton",
     "zwiftId": "cab97522-7200-4886-a035-59597a1800fd",
     "zwiftPicture": "b31d44de-2209844",
+    "strava": ""
+  },
+  {
+    "profileId": 4317652,
+    "name": "Chris Sheppard",
+    "zwiftId": "68fd10e9-7db5-4c4a-b2bd-2fca6ba1e5a4",
+    "zwiftPicture": "",
+    "strava": "41943570"
+  },
+  {
+    "profileId": 2118234,
+    "name": "Tomas Erdélyi (SRT)",
+    "zwiftId": "c3eb0d7a-e131-42a9-a81e-06a267b8d143",
+    "zwiftPicture": "58f699b1-1234749",
     "strava": ""
   }
 ]
