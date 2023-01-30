@@ -840,8 +840,8 @@
     "strava": "3867772"
   },
   {
-    "profileId": 2644230,
-    "name": "Ray Geor",
+    "profileId": 106994,
+    "name": "Mick Fish",
     "zwiftId": "ae319478-a380-4e9c-97ac-2480534f69cd",
     "zwiftPicture": "ea718135-1058085",
     "strava": "535564"
@@ -1005,6 +1005,13 @@
     "name": "Tomas Erdélyi (SRT)",
     "zwiftId": "c3eb0d7a-e131-42a9-a81e-06a267b8d143",
     "zwiftPicture": "58f699b1-1234749",
+    "strava": ""
+  },
+  {
+    "profileId": 1529470,
+    "name": "Mark Liebling (BPRFC)",
+    "zwiftId": "12ecb5cb-61da-42a4-8e95-d28b95cdc61e",
+    "zwiftPicture": "12ecb5cb-61da-42a4-8e95-d28b95cdc61e?",
     "strava": ""
   }
 ]
