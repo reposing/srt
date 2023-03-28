@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sunrise Racing Team">
+    <meta name="author" content="Steve Norman">
+    <meta name="generator" content="Me">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Sunrise Racing Team</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.css">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="./css/srt.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-swedishblue fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/name.png" height="30" alt="Sunrise Racing Team">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownEvents" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownEvents">
+                <li><a class="dropdown-item" href="race-series-2023.html">SRT Race Series 2023</a></li>
+                <li><a class="dropdown-item" href="events.html">Upcoming WTRL TTT Races</a></li>
+                <li><a class="dropdown-item" href="results.html">WTRL TTT Results</a></li>
+                <li><a class="dropdown-item" href="zrlresults.html">ZRL Results</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownRiders" data-bs-toggle="dropdown" aria-expanded="false">Riders</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownRiders">
+                <li><a class="dropdown-item" href="profiles.html">Profiles</a></li>
+                <li><a class="dropdown-item" href="achievements.html">Achievements</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownPrep" data-bs-toggle="dropdown" aria-expanded="false">Race Preparation</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownPrep">
+                <li><a class="dropdown-item" href="firstrace.html">First Race</a></li>
+                <li><a class="dropdown-item" href="everyrace.html">Every Race</a></li>
+                <li><a class="dropdown-item" href="coursenotes.html">Course Notes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+        <div class="row">
+          <div class="col">
+              <h1>Race Series 2023 Standings</h1>
+          </div>
+        </div>
+
+        <ul>
+          <li><a href="#oceaniab">Oceania Cat B</a></li>
+          <li><a href="#oceaniac">Oceania Cat C</a></li>
+          <li><a href="#emeaa">EMEA Cat A</a></li>
+          <li><a href="#emeab">EMEA Cat B</a></li>
+          <li><a href="#emeac">EMEA Cat C</a></li>
+        </ul>
+
+        <a name="oceaniab"></a>
+        <h1 class="pt-3">Oceania Cat B</h1>
+        <table id="table" data-row-style="rowStyle" class="table table-bordered table-hover">
+            <thead>
+              <tr class="bg-swedishblue fg-swedishyellow">
+                  <th>Rider</th>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+                  <th>6</th>
+                  <th>Total</th>
+                  <th>Best 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td>Paul Warren</td>
+                  <td>71</td>
+                  <td>89</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>160</td>
+                  <td>160</td>
+              </tr>
+              <tr>
+                <td>Andrew Willet</td>
+                <td>86</td>
+                <td>52</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>138</td>
+                <td>138</td>
+              </tr>
+              <tr>
+                <td>Chris Sheppard</td>
+                <td>34</td>
+                <td>79</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>113</td>
+                <td>113</td>
+              </tr>
+              <tr>
+                <td>Stephen Pallister</td>
+                <td>37</td>
+                <td>70</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>107</td>
+                <td>107</td>
+              </tr>
+              <tr>
+                <td>Kevin Lange</td>
+                <td>31</td>
+                <td>62</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>93</td>
+                <td>93</td>
+              </tr>
+              <tr>
+                <td>Brent Richards</td>
+                <td>70</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>70</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>Rod Tanner</td>
+                <td>12</td>
+                <td>53</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>65</td>
+                <td>65</td>
+              </tr>
+              <tr>
+                <td>James Parris</td>
+                <td>48</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>48</td>
+                <td>48</td>
+              </tr>
+              <tr>
+                <td>Marek Polacek</td>
+                <td>45</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>45</td>
+                <td>45</td>
+              </tr>
+              <tr>
+                <td>Matthew Bunning</td>
+                <td>8</td>
+                <td>20</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>28</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>Pete Searle</td>
+                <td>0</td>
+                <td>26</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>26</td>
+                <td>26</td>
+              </tr>
+              <tr>
+                <td>Ben Copsey</td>
+                <td>25</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>25</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Jakey Jake</td>
+                <td>7</td>
+                <td>13</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>20</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>Ovidiu Tarasanu</td>
+                <td>20</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>20</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>Thomas Balle</td>
+                <td>15</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>15</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>Ray Geor</td>
+                <td>6</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>6</td>
+                <td>6</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <a name="oceaniac"></a>
+        <h1 class="pt-3">Oceania Cat C</h1>
+        <table id="table" data-row-style="rowStyle" class="table table-bordered table-hover">
+            <thead>
+                <tr class="bg-swedishblue fg-swedishyellow">
+                    <th>Rider</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>Total</th>
+                    <th>Best 3</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Damien Gunby</td>
+                <td>113</td>
+                <td>111</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>224</td>
+                <td>224</td>
+              </tr>
+              <tr>
+                <td>GE</td>
+                <td>0</td>
+                <td>124</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>124</td>
+                <td>124</td>
+              </tr>
+              <tr>
+                <td>Ian Horritt</td>
+                <td>122</td>
+                <td>0</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>122</td>
+                <td>122</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <a name="emeaa"></a>
+        <h1 class="pt-3">EMEA Cat A</h1>
+        <table id="table" data-row-style="rowStyle" class="table table-bordered table-hover">
+            <thead>
+                <tr class="bg-swedishblue fg-swedishyellow">
+                    <th>Rider</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>Total</th>
+                    <th>Best 3</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Valentin Gutierrez</td>
+                <td>122</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>122</td>
+                <td>122</td>
+              </tr>
+              <tr>
+                <td>Paul Trett</td>
+                <td>109</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>109</td>
+                <td>109</td>
+              </tr>
+              <tr>
+                <td>Thomas Erdelyi</td>
+                <td>85</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>85</td>
+                <td>85</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <a name="emeab"></a>
+        <h1 class="pt-3">EMEA Cat B</h1>
+        <table id="table" data-row-style="rowStyle" class="table table-bordered table-hover">
+            <thead>
+                <tr class="bg-swedishblue fg-swedishyellow">
+                    <th>Rider</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>Total</th>
+                    <th>Best 3</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Gary Johnson</td>
+                <td>71</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>71</td>
+                <td>71</td>
+              </tr>
+              <tr>
+                <td>Paul Waugh</td>
+                <td>70</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>70</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>Ryan Cole</td>
+                <td>64</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>64</td>
+                <td>64</td>
+              </tr>
+              <tr>
+                <td>Matt Jones</td>
+                <td>59</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>59</td>
+                <td>59</td>
+              </tr>
+              <tr>
+                <td>James Skinner</td>
+                <td>40</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>40</td>
+                <td>40</td>
+              </tr>
+              <tr>
+                <td>Matthew Hulett</td>
+                <td>39</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>39</td>
+                <td>39</td>
+              </tr>
+              <tr>
+                <td>Stephen Jennings</td>
+                <td>31</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>31</td>
+                <td>31</td>
+              </tr>
+              <tr>
+                <td>Ovidiu Ciocoiu</td>
+                <td>30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>30</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>Pete Dillon</td>
+                <td>27</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>27</td>
+                <td>27</td>
+              </tr>
+              <tr>
+                <td>Robert Bradley</td>
+                <td>19</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>19</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>Dom Norton</td>
+                <td>17</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>17</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>Karl Fogarty</td>
+                <td>16</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>16</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>Jim McManus</td>
+                <td>12</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>12</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>David Rowe</td>
+                <td>10</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>10</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Stuart Hansford</td>
+                <td>10</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>10</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Graham Turner</td>
+                <td>5</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>5</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Chris Akers</td>
+                <td>4</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>4</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Mark Ringrose</td>
+                <td>3</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <a name="emeac"></a>
+        <h1 class="pt-3">EMEA Cat C</h1>
+        <table id="table" data-row-style="rowStyle" class="table table-bordered table-hover">
+            <thead>
+                <tr class="bg-swedishblue fg-swedishyellow">
+                    <th>Rider</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>Total</th>
+                    <th>Best 3</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Will Peck</td>
+                <td>122</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>122</td>
+                <td>122</td>
+              </tr>
+              <tr>
+                <td>Luca Pozzani</td>
+                <td>87</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>87</td>
+                <td>87</td>
+              </tr>
+              <tr>
+                <td>Christo van Rensburg</td>
+                <td>62</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>62</td>
+                <td>62</td>
+              </tr>
+              <tr>
+                <td>Guy Mayger</td>
+                <td>61</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>61</td>
+                <td>61</td>
+              </tr>
+              <tr>
+                <td>Chris Akers</td>
+                <td>60</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>60</td>
+                <td>60</td>
+              </tr>
+              <tr>
+                <td>Christopher Reid "Stopherson"</td>
+                <td>33</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>33</td>
+                <td>33</td>
+              </tr>
+              <tr>
+                <td>Pierre Chraim</td>
+                <td>14</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>14</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>Aidan Bailey</td>
+                <td>13</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>13</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>David Kaiser</td>
+                <td>12</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>12</td>
+                <td>12</td>
+              </tr>
+            </tbody>
+        </table>    </main><!-- /.container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+<script>
+  function rowStyle(row, index) {
+    if (index % 2 === 0) {
+      return {
+        classes: 'bg-secondary'
+      }
+    }
+    return {
+      css: {
+      }
+    }
+  }
+
+  function totalFormatter(value, row) {
+    if (row.issues) {
+      return value + '*'
+    }
+    return value 
+  }
+
+</script>
+</body>
+
+</html>
