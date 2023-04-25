@@ -925,7 +925,7 @@
   },
   {
     "profileId": 423682,
-    "name": "Karl Fogarty (CRNS)",
+    "name": "Karl Fogarty",
     "zwiftId": "9769c6c9-d729-4caa-990e-131456796b01",
     "zwiftPicture": "bc61533f-228214",
     "strava": "4836718"
@@ -995,14 +995,14 @@
   },
   {
     "profileId": 2118234,
-    "name": "Tomas Erdélyi (SRT)",
+    "name": "Tomas Erdélyi",
     "zwiftId": "c3eb0d7a-e131-42a9-a81e-06a267b8d143",
     "zwiftPicture": "58f699b1-1234749",
     "strava": ""
   },
   {
     "profileId": 1529470,
-    "name": "Mark Liebling (BPRFC)",
+    "name": "Mark Liebling",
     "zwiftId": "12ecb5cb-61da-42a4-8e95-d28b95cdc61e",
     "zwiftPicture": "12ecb5cb-61da-42a4-8e95-d28b95cdc61e?",
     "strava": ""
@@ -1041,5 +1041,33 @@
     "zwiftId": "0bc830ba-f481-4c22-ad7b-4bb2c0900b17",
     "zwiftPicture": "78cea7ef-1954975",
     "strava": "23669157"
+  },
+  {
+    "profileId": 5492878,
+    "name": "Ben Shannon",
+    "zwiftId": "939ef7e5-8cf2-4b80-91cc-db485e09ef04",
+    "zwiftPicture": "8cc3bcd5-2680021",
+    "strava": ""
+  },
+  {
+    "profileId": 829691,
+    "name": "Guy  Webster",
+    "zwiftId": "65243f3c-bd18-45f7-a64b-aaea1a77b358",
+    "zwiftPicture": "117af0b1-426715",
+    "strava": "2480797"
+  },
+  {
+    "profileId": 382471,
+    "name": "James Hall",
+    "zwiftId": "2bf864bd-8409-420d-af41-ded29705a427",
+    "zwiftPicture": "7417b9de-208947",
+    "strava": "19233216"
+  },
+  {
+    "profileId": 2966589,
+    "name": "Kevin Plasmans",
+    "zwiftId": "aa5e7722-7a9c-436b-9b4c-921397e8f42d",
+    "zwiftPicture": "1d0b2be7-1567326",
+    "strava": "32145422"
   }
 ]
