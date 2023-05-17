@@ -1076,5 +1076,26 @@
     "zwiftId": "eaeb18d1-b931-487c-9592-1fb23ee0cd96",
     "zwiftPicture": "dbedb589-209362",
     "strava": "4918554"
+  },
+  {
+    "profileId": 1331270,
+    "name": "Andrew Lighten",
+    "zwiftId": "3f488d59-e83c-42a6-b214-27dfe1f6ecca",
+    "zwiftPicture": "9a1b3fe1-710880",
+    "strava": "1062963"
+  },
+  {
+    "profileId": 182,
+    "name": "Craig Bowles (LEQPxSTAGES)",
+    "zwiftId": "a91927ec-7e77-43b9-add3-9b4502a49baf",
+    "zwiftPicture": "7ea93783-16880",
+    "strava": "257306"
+  },
+  {
+    "profileId": 1569620,
+    "name": "George Dooper | LEQPxSTAGES",
+    "zwiftId": "77bb0812-7718-4a79-9e3e-53790b6ed23b",
+    "zwiftPicture": "c5705c52-818594",
+    "strava": "3226724"
   }
 ]
