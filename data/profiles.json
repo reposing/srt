@@ -1097,5 +1097,40 @@
     "zwiftId": "77bb0812-7718-4a79-9e3e-53790b6ed23b",
     "zwiftPicture": "c5705c52-818594",
     "strava": "3226724"
+  },
+  {
+    "profileId": 1456882,
+    "name": "Mark Buchan",
+    "zwiftId": "ec843369-d75b-414f-9fa9-f61f67489023",
+    "zwiftPicture": "194ca033-1351999",
+    "strava": "33910800"
+  },
+  {
+    "profileId": 558697,
+    "name": "Daniel Bolton",
+    "zwiftId": "6fae6bdf-9fbe-4cfb-9129-a3527fe61f3a?",
+    "zwiftPicture": "86a3573c-1668073",
+    "strava": "919855"
+  },
+  {
+    "profileId": 1638668,
+    "name": "Kris McGowan",
+    "zwiftId": "7fe279f9-4faf-4361-a200-7361accc4cae",
+    "zwiftPicture": "66415b44-861278",
+    "strava": ""
+  },
+  {
+    "profileId": 5274923,
+    "name": "Rachel Gooch",
+    "zwiftId": "9dcef80e-e5b1-42d3-ad20-102951c55062",
+    "zwiftPicture": "ce083dee-2572234",
+    "strava": ""
+  },
+  {
+    "profileId": 1342229,
+    "name": "Sam Pinczewski",
+    "zwiftId": "46a985d9-b778-4b4a-a058-692c34c21770",
+    "zwiftPicture": "e26fc7b3-761017",
+    "strava": "1677109"
   }
 ]
