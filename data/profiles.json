@@ -1132,5 +1132,40 @@
     "zwiftId": "46a985d9-b778-4b4a-a058-692c34c21770",
     "zwiftPicture": "e26fc7b3-761017",
     "strava": "1677109"
+  },
+  {
+    "profileId": 1688256,
+    "name": "Carl Sheriff",
+    "zwiftId": "ccd1654d-c5e0-445d-8c24-c1c14ec92a25",
+    "zwiftPicture": "810d3024-894539",
+    "strava": "2801243"
+  },
+  {
+    "profileId": 44477,
+    "name": "JD Gorilla",
+    "zwiftId": "2273cd81-fb16-4c5a-a1dc-90a12e8dcfa4",
+    "zwiftPicture": "8375b69c-130487",
+    "strava": ""
+  },
+  {
+    "profileId": 1442314,
+    "name": "Mark Fuller",
+    "zwiftId": "2239ac45-9609-4114-a4c4-f64d3f175a40",
+    "zwiftPicture": "ba4660fd-2773087",
+    "strava": "7718230"
+  },
+  {
+    "profileId": 396933,
+    "name": "Ross Mackintosh",
+    "zwiftId": "d9765a0f-904c-4a14-aeff-b37e8ccdc60a",
+    "zwiftPicture": "b5242fc0-214625",
+    "strava": "246257"
+  },
+  {
+    "profileId": 2566200,
+    "name": "TRACY YOUNGJONES",
+    "zwiftId": "3c55e0b9-da14-4bbb-bd1d-b617a127beba",
+    "zwiftPicture": "505e2f85-1393149",
+    "strava": ""
   }
 ]
