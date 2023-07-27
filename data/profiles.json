@@ -1167,5 +1167,54 @@
     "zwiftId": "3c55e0b9-da14-4bbb-bd1d-b617a127beba",
     "zwiftPicture": "505e2f85-1393149",
     "strava": ""
+  },
+  {
+    "profileId": 4873192,
+    "name": "Paul Denvir",
+    "zwiftId": "ef5d514b-eba7-412f-a703-e8a335dad9aa",
+    "zwiftPicture": "d0456a82-2748433",
+    "strava": "2838042"
+  },
+  {
+    "profileId": 2816044,
+    "name": "Paul Fitch",
+    "zwiftId": "401f31a4-70ef-4999-bdb6-8776526b9fab",
+    "zwiftPicture": "f25b0506-1550398",
+    "strava": ""
+  },
+  {
+    "profileId": 3330433,
+    "name": "Philip Drewry ",
+    "zwiftId": "9a935176-37c6-4713-8d7f-4f974937b853",
+    "zwiftPicture": "f0290a5a-1755465",
+    "strava": ""
+  },
+  {
+    "profileId": 4028622,
+    "name": "Andrew Rankin",
+    "zwiftId": "4bb3bc32-784b-4341-a25b-04f012c1fc02",
+    "zwiftPicture": "0b100c8a-2135721",
+    "strava": ""
+  },
+  {
+    "profileId": 574339,
+    "name": "Chris Bowles",
+    "zwiftId": "5ed9e27e-08d7-4732-8535-f2308d9457c9",
+    "zwiftPicture": "0a9c84ed-537070",
+    "strava": "9286060"
+  },
+  {
+    "profileId": 3386492,
+    "name": "CJ",
+    "zwiftId": "b5989752-90cd-4558-a945-409a046288e2",
+    "zwiftPicture": "468153de-1879153",
+    "strava": ""
+  },
+  {
+    "profileId": 1213167,
+    "name": "Rob B",
+    "zwiftId": "782b043a-b3e6-4a8a-8e2c-b177ea0314dd",
+    "zwiftPicture": "8e9fcf05-639444",
+    "strava": "717574"
   }
 ]
