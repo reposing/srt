@@ -28,13 +28,6 @@
     "strava": "815138"
   },
   {
-    "profileId": 3453721,
-    "name": "Roberta Souza",
-    "zwiftId": "4b49dc6f-df4c-4f0d-9ce3-74ac5f1c52fd",
-    "zwiftPicture": "94c8ae42-1808655",
-    "strava": ""
-  },
-  {
     "profileId": 1779299,
     "name": "Adam Baker",
     "zwiftId": "b3311baa-8db6-4d44-afb5-d9e8a90db8ca",
@@ -168,13 +161,6 @@
     "strava": "891735"
   },
   {
-    "profileId": 1873947,
-    "name": "Helen Drew",
-    "zwiftId": "9d686322-c906-44f4-9538-e420d3947fbb",
-    "zwiftPicture": "44edd12a-996019",
-    "strava": "8499020"
-  },
-  {
     "profileId": 1080112,
     "name": "James Potter",
     "zwiftId": "c61c4f77-4969-4bc5-8598-806ca3f7d2d6",
@@ -215,20 +201,6 @@
     "zwiftId": "f62682be-dc64-4523-8f72-22af906f0ec1",
     "zwiftPicture": "fe99574f-1308516",
     "strava": "5103016"
-  },
-  {
-    "profileId": 148547,
-    "name": "Kate Spicer",
-    "zwiftId": "412da9d7-870a-4c20-bb89-4796ad85cdde",
-    "zwiftPicture": "05b05eb9-402831",
-    "strava": "3317437"
-  },
-  {
-    "profileId": 919863,
-    "name": "Kathrin Fuhrer",
-    "zwiftId": "59d1aeda-ff56-4632-ae2f-e8a6a6fa6522",
-    "zwiftPicture": "4b1780a3-480474",
-    "strava": "22920259"
   },
   {
     "profileId": 700766,
@@ -483,13 +455,6 @@
     "strava": ""
   },
   {
-    "profileId": 3480768,
-    "name": "Ben Rothberg",
-    "zwiftId": "4f07ecf8-1347-452b-aad5-ecda432f25ba",
-    "zwiftPicture": "85f8b3ba-1833324",
-    "strava": "276560"
-  },
-  {
     "profileId": 4093464,
     "name": "Jake Cole",
     "zwiftId": "927c887a-8f5b-473d-a861-d0158b04ac7c",
@@ -567,13 +532,6 @@
     "strava": "73331662"
   },
   {
-    "profileId": 3460266,
-    "name": "Parker Dman",
-    "zwiftId": "84f17ca6-2f89-4c1d-9c75-541479fdc5d4",
-    "zwiftPicture": "fbeb631b-2085655",
-    "strava": ""
-  },
-  {
     "profileId": 799745,
     "name": "Roman Sazanov",
     "zwiftId": "c145bf11-13b0-41a0-98ad-87c28661e2f6",
@@ -623,13 +581,6 @@
     "strava": "96310983"
   },
   {
-    "profileId": 468060,
-    "name": "First SwissExpress",
-    "zwiftId": "20308d5e-4f63-4b62-9bff-6d56a45c41cb",
-    "zwiftPicture": "756ae3da-260993",
-    "strava": ""
-  },
-  {
     "profileId": 1283068,
     "name": "Will Peck",
     "zwiftId": "8e1d7692-2fda-4191-9b42-60634b97162c",
@@ -648,13 +599,6 @@
     "name": "Jim Mc",
     "zwiftId": "8f9129cf-190a-46aa-a7a1-d1611388e3de",
     "zwiftPicture": "b5d6e54d-1731668",
-    "strava": ""
-  },
-  {
-    "profileId": 4032618,
-    "name": "Christo van Rensburg",
-    "zwiftId": "44030f5d-16c9-468d-879a-c32aced56e3f",
-    "zwiftPicture": "5c842ab8-2440390",
     "strava": ""
   },
   {
@@ -677,13 +621,6 @@
     "zwiftId": "40723154-b7ec-430f-8b53-275888bf475a",
     "zwiftPicture": "049e329e-798959",
     "strava": ""
-  },
-  {
-    "profileId": 1967430,
-    "name": "Ben Allen",
-    "zwiftId": "41f38049-f6e8-4380-9fd7-0e1eca3973c4",
-    "zwiftPicture": "dbee8bce-1196878",
-    "strava": "6505874"
   },
   {
     "profileId": 272388,
@@ -808,7 +745,7 @@
     "profileId": 2620599,
     "name": "Richard Sullivan",
     "zwiftId": "906fdff4-d5dd-482d-a434-a1a8b367b2a4",
-    "zwiftPicture": "ace0afa8-1423198",
+    "zwiftPicture": "6feb289c-1423198",
     "strava": "628235"
   },
   {
@@ -826,24 +763,17 @@
     "strava": ""
   },
   {
-    "profileId": 2086687,
-    "name": "Coach Kevin",
-    "zwiftId": "c36da9ad-b8cd-4e52-8c65-bf903ebcc4f2",
-    "zwiftPicture": "022e6027-1139395",
-    "strava": "3867772"
-  },
-  {
     "profileId": 106994,
     "name": "Mick Fish",
     "zwiftId": "ae319478-a380-4e9c-97ac-2480534f69cd",
-    "zwiftPicture": "ea718135-1058085",
+    "zwiftPicture": "f7abcdcb-1058085",
     "strava": "535564"
   },
   {
     "profileId": 1303125,
     "name": "Paul Millington",
     "zwiftId": "7106d8b7-aa63-4ee2-96a3-a6d2a702c84c",
-    "zwiftPicture": "45defcc2-692288",
+    "zwiftPicture": "4ba35440-692288",
     "strava": ""
   },
   {
@@ -857,7 +787,7 @@
     "profileId": 219423,
     "name": "Alex Burri",
     "zwiftId": "4fcf9e89-79f8-4759-a7fd-3e7d35e19833",
-    "zwiftPicture": "8b36a931-280154",
+    "zwiftPicture": "b07d2ce7-280154",
     "strava": ""
   },
   {
@@ -878,28 +808,21 @@
     "profileId": 1865245,
     "name": "Chris Gibson",
     "zwiftId": "4d0c62e0-4446-4899-a1b5-8d7d2b9d4e89",
-    "zwiftPicture": "2b92f9f1-990934",
+    "zwiftPicture": "3dadd696-990934",
     "strava": ""
-  },
-  {
-    "profileId": 17288,
-    "name": "Paul Speed",
-    "zwiftId": "6d060886-02f2-4387-a6ff-84faf9d095ae",
-    "zwiftPicture": "b9861761-3340",
-    "strava": "148437"
   },
   {
     "profileId": 4646347,
     "name": "Phoebe Law",
     "zwiftId": "a854d068-719d-4c25-8c43-de31d6dbcb29",
-    "zwiftPicture": "444119da-2526608",
+    "zwiftPicture": "eec0e94a-2526608",
     "strava": "96033624"
   },
   {
     "profileId": 5311159,
     "name": "Robert Bradley",
     "zwiftId": "24d5413a-8f7c-4219-89ab-2eb251b6c463",
-    "zwiftPicture": "",
+    "zwiftPicture": "cc81d515-2861688",
     "strava": "672931"
   },
   {
@@ -927,28 +850,14 @@
     "profileId": 423682,
     "name": "Karl Fogarty",
     "zwiftId": "9769c6c9-d729-4caa-990e-131456796b01",
-    "zwiftPicture": "bc61533f-228214",
+    "zwiftPicture": "df43f770-228214",
     "strava": "4836718"
-  },
-  {
-    "profileId": 2697905,
-    "name": "Andrew Jansson",
-    "zwiftId": "9480a0be-6b28-469c-be14-9e68034edda5",
-    "zwiftPicture": "d6af6cba-1481503",
-    "strava": ""
   },
   {
     "profileId": 934766,
     "name": "Ian Horritt",
     "zwiftId": "ec2487f6-8136-4571-a244-1f4650805c4f",
     "zwiftPicture": "f45153c9-2308173",
-    "strava": ""
-  },
-  {
-    "profileId": 5206228,
-    "name": "Jakey Jake",
-    "zwiftId": "b38221f6-6fbd-4299-9ae1-e7fc05628508",
-    "zwiftPicture": "1b8ad1fe-2541101",
     "strava": ""
   },
   {
@@ -983,14 +892,14 @@
     "profileId": 4152175,
     "name": "Tim Skelton",
     "zwiftId": "cab97522-7200-4886-a035-59597a1800fd",
-    "zwiftPicture": "b31d44de-2209844",
+    "zwiftPicture": "e5e6bb15-2209844",
     "strava": ""
   },
   {
     "profileId": 4317652,
     "name": "Chris Sheppard",
     "zwiftId": "68fd10e9-7db5-4c4a-b2bd-2fca6ba1e5a4",
-    "zwiftPicture": "",
+    "zwiftPicture": "6b80f171-2937651",
     "strava": "41943570"
   },
   {
@@ -1004,7 +913,7 @@
     "profileId": 1529470,
     "name": "Mark Liebling",
     "zwiftId": "12ecb5cb-61da-42a4-8e95-d28b95cdc61e",
-    "zwiftPicture": "12ecb5cb-61da-42a4-8e95-d28b95cdc61e?",
+    "zwiftPicture": "abe916db-1359859?",
     "strava": ""
   },
   {
@@ -1018,49 +927,35 @@
     "profileId": 783408,
     "name": "Conrad Cronin",
     "zwiftId": "3ac0199a-06c6-4152-9e63-fb7d9a108a67",
-    "zwiftPicture": "a7d0c9e3-470192",
+    "zwiftPicture": "ea44064b-470192",
     "strava": ""
   },
   {
     "profileId": 3789084,
-    "name": "James Parris ",
+    "name": "James Parris",
     "zwiftId": "1cb8434d-25b5-4813-b47d-c79ec6ce282f",
-    "zwiftPicture": "20d0b527-2078921",
-    "strava": ""
-  },
-  {
-    "profileId": 3474381,
-    "name": "Gareth Hawkridge",
-    "zwiftId": "1411d422-679f-4212-8e96-ac5ef27d3208",
-    "zwiftPicture": "7733e9f4-1809239",
+    "zwiftPicture": "b96bd3e3-2078921",
     "strava": ""
   },
   {
     "profileId": 2650151,
     "name": "Bart de Groot",
     "zwiftId": "0bc830ba-f481-4c22-ad7b-4bb2c0900b17",
-    "zwiftPicture": "78cea7ef-1954975",
+    "zwiftPicture": "d73547ff-1954975",
     "strava": "23669157"
   },
   {
-    "profileId": 5492878,
-    "name": "Ben Shannon",
-    "zwiftId": "939ef7e5-8cf2-4b80-91cc-db485e09ef04",
-    "zwiftPicture": "8cc3bcd5-2680021",
-    "strava": ""
-  },
-  {
     "profileId": 829691,
-    "name": "Guy  Webster",
+    "name": "Guy Webster",
     "zwiftId": "65243f3c-bd18-45f7-a64b-aaea1a77b358",
-    "zwiftPicture": "117af0b1-426715",
+    "zwiftPicture": "2e9d59b6-426715",
     "strava": "2480797"
   },
   {
     "profileId": 382471,
     "name": "James Hall",
     "zwiftId": "2bf864bd-8409-420d-af41-ded29705a427",
-    "zwiftPicture": "7417b9de-208947",
+    "zwiftPicture": "f485a47a-208947",
     "strava": "19233216"
   },
   {
@@ -1072,7 +967,7 @@
   },
   {
     "profileId": 315757,
-    "name": "Femke Groen [SZR]🌶🌶",
+    "name": "Femke Groen",
     "zwiftId": "eaeb18d1-b931-487c-9592-1fb23ee0cd96",
     "zwiftPicture": "dbedb589-209362",
     "strava": "4918554"
@@ -1086,14 +981,14 @@
   },
   {
     "profileId": 182,
-    "name": "Craig Bowles (LEQPxSTAGES)",
+    "name": "Craig Bowles",
     "zwiftId": "a91927ec-7e77-43b9-add3-9b4502a49baf",
     "zwiftPicture": "7ea93783-16880",
     "strava": "257306"
   },
   {
     "profileId": 1569620,
-    "name": "George Dooper | LEQPxSTAGES",
+    "name": "George Dooper",
     "zwiftId": "77bb0812-7718-4a79-9e3e-53790b6ed23b",
     "zwiftPicture": "c5705c52-818594",
     "strava": "3226724"
@@ -1108,22 +1003,15 @@
   {
     "profileId": 558697,
     "name": "Daniel Bolton",
-    "zwiftId": "6fae6bdf-9fbe-4cfb-9129-a3527fe61f3a?",
+    "zwiftId": "6fae6bdf-9fbe-4cfb-9129-a3527fe61f3a",
     "zwiftPicture": "86a3573c-1668073",
     "strava": "919855"
-  },
-  {
-    "profileId": 1638668,
-    "name": "Kris McGowan",
-    "zwiftId": "7fe279f9-4faf-4361-a200-7361accc4cae",
-    "zwiftPicture": "66415b44-861278",
-    "strava": ""
   },
   {
     "profileId": 5274923,
     "name": "Rachel Gooch",
     "zwiftId": "9dcef80e-e5b1-42d3-ad20-102951c55062",
-    "zwiftPicture": "ce083dee-2572234",
+    "zwiftPicture": "ed8a430c-2572234",
     "strava": ""
   },
   {
@@ -1137,7 +1025,7 @@
     "profileId": 1688256,
     "name": "Carl Sheriff",
     "zwiftId": "ccd1654d-c5e0-445d-8c24-c1c14ec92a25",
-    "zwiftPicture": "810d3024-894539",
+    "zwiftPicture": "abfd6a80-894539",
     "strava": "2801243"
   },
   {
@@ -1151,40 +1039,40 @@
     "profileId": 1442314,
     "name": "Mark Fuller",
     "zwiftId": "2239ac45-9609-4114-a4c4-f64d3f175a40",
-    "zwiftPicture": "ba4660fd-2773087",
+    "zwiftPicture": "a98f75a5-2773087",
     "strava": "7718230"
   },
   {
     "profileId": 396933,
     "name": "Ross Mackintosh",
     "zwiftId": "d9765a0f-904c-4a14-aeff-b37e8ccdc60a",
-    "zwiftPicture": "b5242fc0-214625",
+    "zwiftPicture": "bc65ebb8-214625",
     "strava": "246257"
   },
   {
     "profileId": 2566200,
-    "name": "TRACY YOUNGJONES",
+    "name": "Tracy Youngjones",
     "zwiftId": "3c55e0b9-da14-4bbb-bd1d-b617a127beba",
-    "zwiftPicture": "505e2f85-1393149",
+    "zwiftPicture": "e4b2a23d-1393149",
     "strava": ""
   },
   {
     "profileId": 4873192,
     "name": "Paul Denvir",
     "zwiftId": "ef5d514b-eba7-412f-a703-e8a335dad9aa",
-    "zwiftPicture": "d0456a82-2748433",
+    "zwiftPicture": "5baeffe2-2748433",
     "strava": "2838042"
   },
   {
     "profileId": 2816044,
     "name": "Paul Fitch",
     "zwiftId": "401f31a4-70ef-4999-bdb6-8776526b9fab",
-    "zwiftPicture": "f25b0506-1550398",
+    "zwiftPicture": "06e21440-1550398",
     "strava": ""
   },
   {
     "profileId": 3330433,
-    "name": "Philip Drewry ",
+    "name": "Philip Drewry",
     "zwiftId": "9a935176-37c6-4713-8d7f-4f974937b853",
     "zwiftPicture": "f0290a5a-1755465",
     "strava": ""
@@ -1193,7 +1081,7 @@
     "profileId": 4028622,
     "name": "Andrew Rankin",
     "zwiftId": "4bb3bc32-784b-4341-a25b-04f012c1fc02",
-    "zwiftPicture": "0b100c8a-2135721",
+    "zwiftPicture": "be666a90-2135721",
     "strava": ""
   },
   {
@@ -1216,5 +1104,1314 @@
     "zwiftId": "782b043a-b3e6-4a8a-8e2c-b177ea0314dd",
     "zwiftPicture": "8e9fcf05-639444",
     "strava": "717574"
+  },
+  {
+    "profileId": 4514252,
+    "name": "Rich N LIOS",
+    "zwiftId": "5ef2dceb-f324-4333-9467-a2e6a96fbdf7",
+    "zwiftPicture": "194711b2-2246486",
+    "strava": ""
+  },
+  {
+    "profileId": 448854,
+    "name": "Dave Eastaff",
+    "zwiftId": "03edb93d-e060-43be-9ce9-d716fa9eebc5",
+    "zwiftPicture": "fadd1a92-252907",
+    "strava": ""
+  },
+  {
+    "profileId": 5500631,
+    "name": "Gem Jackson",
+    "zwiftId": "5a987687-03cc-472e-afd8-998a74bd20fe",
+    "zwiftPicture": "c953909a-2676337",
+    "strava": ""
+  },
+  {
+    "profileId": 1108734,
+    "name": "Spencer",
+    "zwiftId": "7a5ba73b-83a1-429d-85e4-327b8f742f19",
+    "zwiftPicture": "38418f47-582400",
+    "strava": ""
+  },
+  {
+    "profileId": 5813081,
+    "name": "Neil Smith",
+    "zwiftId": "815d6a7c-ab68-4f58-abbb-3edb043a5b23",
+    "zwiftPicture": "b62bf5a9-3078200",
+    "strava": ""
+  },
+  {
+    "profileId": 2603648,
+    "name": "Sam Hazelton",
+    "zwiftId": "5f429ef9-2aea-4eb2-9d12-5e9cfbeaa35a",
+    "zwiftPicture": "30c1b5f1-1833744",
+    "strava": ""
+  },
+  {
+    "profileId": 3046372,
+    "name": "Chic Harte ",
+    "zwiftId": "b98158d7-9027-404b-b55c-b555f12a7938",
+    "zwiftPicture": "8ddecba5-1595672",
+    "strava": ""
+  },
+  {
+    "profileId": 730120,
+    "name": "Adam Croutear",
+    "zwiftId": "199a60f8-eefd-4a79-9cee-a2f95c23142b",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 2029858,
+    "name": "Adrian  Kelly",
+    "zwiftId": "efabdb66-83bb-4aee-a376-08cadc55c112",
+    "zwiftPicture": "fb309bcc-1085951",
+    "strava": ""
+  },
+  {
+    "profileId": 3418758,
+    "name": "Alex Fox",
+    "zwiftId": "bea31da0-68c2-43da-a98f-0685f97cc990",
+    "zwiftPicture": "cc21c9d8-1785096",
+    "strava": ""
+  },
+  {
+    "profileId": 5492878,
+    "name": "Ben Shannon",
+    "zwiftId": "939ef7e5-8cf2-4b80-91cc-db485e09ef04",
+    "zwiftPicture": "8cc3bcd5-2680021",
+    "strava": ""
+  },
+  {
+    "profileId": 4358084,
+    "name": "Carl Hughes",
+    "zwiftId": "8094e23f-76bd-4fd6-a00b-d7bc5fe96abf",
+    "zwiftPicture": "159a7dd8-2556896",
+    "strava": ""
+  },
+  {
+    "profileId": 5793655,
+    "name": "Charlie Franklin",
+    "zwiftId": "f8ada621-df64-4bbd-8acc-57d08bd0389f",
+    "zwiftPicture": "3f42ee27-2785874",
+    "strava": ""
+  },
+  {
+    "profileId": 5349736,
+    "name": "Chris marshall",
+    "zwiftId": "3d10fa14-d7e7-40d3-9bc0-b885c694441f",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 3646027,
+    "name": "Chris Steele",
+    "zwiftId": "bc76dc9c-29f7-4bde-b728-8d4b7e4f7313",
+    "zwiftPicture": "f7c4c7c8-1909412",
+    "strava": ""
+  },
+  {
+    "profileId": 870984,
+    "name": "Conor OCallaghan",
+    "zwiftId": "ed3c4114-fb51-41ba-8dd4-ce50e4237700",
+    "zwiftPicture": "bdd20b9c-443707",
+    "strava": ""
+  },
+  {
+    "profileId": 1399142,
+    "name": "David Cass",
+    "zwiftId": "8fbf8ad6-0899-464e-aa5b-e67d210924b7",
+    "zwiftPicture": "e2e50a48-738881",
+    "strava": ""
+  },
+  {
+    "profileId": 2203623,
+    "name": "Frank H",
+    "zwiftId": "ee2b4275-0fd7-4fed-a407-79dc0265e409",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 3474381,
+    "name": "Gareth Hawkridge",
+    "zwiftId": "1411d422-679f-4212-8e96-ac5ef27d3208",
+    "zwiftPicture": "7733e9f4-1809239",
+    "strava": ""
+  },
+  {
+    "profileId": 5238902,
+    "name": "GARY PARKER",
+    "zwiftId": "a5c7b781-5fc5-45fd-9b8c-69f9386ff657",
+    "zwiftPicture": "58b13402-2768987",
+    "strava": ""
+  },
+  {
+    "profileId": 3399537,
+    "name": "Gerard Grimes",
+    "zwiftId": "a0097c85-3498-4dfb-88aa-5d1ccedc9053",
+    "zwiftPicture": "4632b9f6-2630623",
+    "strava": ""
+  },
+  {
+    "profileId": 5659866,
+    "name": "Gerard McComish",
+    "zwiftId": "fa758207-0c10-4872-a8b0-05f20b3ad4da",
+    "zwiftPicture": "b9bd3979-2750392",
+    "strava": ""
+  },
+  {
+    "profileId": 6284081,
+    "name": "Hol Dare",
+    "zwiftId": "f67193d8-6c43-437a-a4cc-4bc8fbcc270f",
+    "zwiftPicture": "a95ccbb5-2966412",
+    "strava": ""
+  },
+  {
+    "profileId": 6381887,
+    "name": "Ian Cox",
+    "zwiftId": "539e3a70-5765-41cf-b13e-b860a86e1b11",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 699707,
+    "name": "Jack Sutcliffe",
+    "zwiftId": "bb7d4a74-fb24-4ee8-84ee-ebcb50e2fa5c",
+    "zwiftPicture": "3ba36d17-376312",
+    "strava": ""
+  },
+  {
+    "profileId": 2403044,
+    "name": "James Cooper",
+    "zwiftId": "7103e979-71e2-4039-b786-37728a838998",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 5063411,
+    "name": "James Wong",
+    "zwiftId": "2f61e603-94a0-44ad-9f81-981cf9e1c132",
+    "zwiftPicture": "195dbf58-2498192",
+    "strava": ""
+  },
+  {
+    "profileId": 2408187,
+    "name": "Joe Brayshaw",
+    "zwiftId": "52192e73-943c-4f0a-8e39-eb4b5982ce82",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 4458801,
+    "name": "John Willett",
+    "zwiftId": "91506fdf-300a-4d25-921d-54f18128bc2e",
+    "zwiftPicture": "c59e667d-2293131",
+    "strava": ""
+  },
+  {
+    "profileId": 585245,
+    "name": "Jonathon Mann",
+    "zwiftId": "c3f569bd-f08e-40c8-9ac3-36efe8284212",
+    "zwiftPicture": "2ad376f3-709141",
+    "strava": ""
+  },
+  {
+    "profileId": 5125901,
+    "name": "Mark Willett",
+    "zwiftId": "e1f849e8-5679-4ee0-959b-68c30c9750e3",
+    "zwiftPicture": "b6dda4d5-2778805",
+    "strava": ""
+  },
+  {
+    "profileId": 1346339,
+    "name": "Matt Higgins",
+    "zwiftId": "ba7b88bf-4513-4afa-a9f3-fa8f6af14d91",
+    "zwiftPicture": "e4fb2adc-705275",
+    "strava": ""
+  },
+  {
+    "profileId": 2689963,
+    "name": "Neil Gorilla",
+    "zwiftId": "a49ae241-d69e-424f-964b-0f2bd5b716f4",
+    "zwiftPicture": "71a5095a-1644446",
+    "strava": ""
+  },
+  {
+    "profileId": 93230,
+    "name": "Nick Gorilla",
+    "zwiftId": "4db44cb0-891a-4e28-8bb1-62caf2a085a7",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 6358815,
+    "name": "Patrick Thoné",
+    "zwiftId": "29432b4b-718c-4f2e-8e5d-474943993101",
+    "zwiftPicture": "678873ed-3016509",
+    "strava": ""
+  },
+  {
+    "profileId": 3034772,
+    "name": "Paul Jolliffe",
+    "zwiftId": "fcd73f51-c021-4498-9d8f-be009ff516bc",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 5307671,
+    "name": "Phil Rayner",
+    "zwiftId": "373a865e-dd5e-43a0-8631-43f5ae1c0595",
+    "zwiftPicture": "a65d837c-2591239",
+    "strava": ""
+  },
+  {
+    "profileId": 941300,
+    "name": "Richard Smith",
+    "zwiftId": "a66a6b79-bad0-42ec-a2b5-21a10f1b2376",
+    "zwiftPicture": "35f66c0b-3056302",
+    "strava": ""
+  },
+  {
+    "profileId": 3343093,
+    "name": "Sami Garratt",
+    "zwiftId": "0c80d37a-db23-4534-84e7-f5c8ca97d04d",
+    "zwiftPicture": "f60fa772-2860346",
+    "strava": ""
+  },
+  {
+    "profileId": 3644798,
+    "name": "Sean Russell",
+    "zwiftId": "767f608c-6607-441c-9a87-f6f3dbd4ea72",
+    "zwiftPicture": "99027353-1916015",
+    "strava": ""
+  },
+  {
+    "profileId": 2957681,
+    "name": "Sharon Bakewell",
+    "zwiftId": "f61f5514-9a0a-42a9-805c-a75dc2df1638",
+    "zwiftPicture": "96c60567-1561103",
+    "strava": ""
+  },
+  {
+    "profileId": 970401,
+    "name": "Simon Finch",
+    "zwiftId": "a767fd96-2c73-42a7-9e65-fb216857f5dc",
+    "zwiftPicture": "c775f2b7-629479",
+    "strava": ""
+  },
+  {
+    "profileId": 5774011,
+    "name": "Tom Easton",
+    "zwiftId": "567e1713-73eb-43ad-99fa-8ec1d2c8fbef",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 2660068,
+    "name": "Tony Close",
+    "zwiftId": "2d24ae6b-e1fc-4e80-9f24-5e09c1ee05a5",
+    "zwiftPicture": "f060438d-2806342",
+    "strava": ""
+  },
+  {
+    "profileId": 2968692,
+    "name": "Troy Little",
+    "zwiftId": "a03b9e0d-4e7b-486c-8de4-1e9a60942aae",
+    "zwiftPicture": "fe8081b4-1578185",
+    "strava": ""
+  },
+  {
+    "profileId": 5546279,
+    "name": "William Etchell",
+    "zwiftId": "0974bc9d-3031-4313-930a-6aa4d9d7b5c9",
+    "zwiftPicture": "2cfb53cd-2990848",
+    "strava": ""
+  },
+  {
+    "profileId": 876867,
+    "name": "Zaphod Beeblebrox CL",
+    "zwiftId": "923b2004-08b2-4a9f-ba6b-d6ca5b8c14c1",
+    "zwiftPicture": "42cbe080-725364",
+    "strava": ""
+  },
+  {
+    "profileId": 1414395,
+    "name": "Flexer",
+    "zwiftId": "c381a2ca-24e7-45e6-b59c-3c824d453d17",
+    "zwiftPicture": "66641e22-732144",
+    "strava": ""
+  },
+  {
+    "profileId": 194430,
+    "name": "Dunc Gorilla",
+    "zwiftId": "af2aede8-d6b0-4fe6-aee7-6febb80adf20",
+    "zwiftPicture": "901ddf35-444378",
+    "strava": ""
+  },
+  {
+    "profileId": 535503,
+    "name": "Gary McDonald",
+    "zwiftId": "bb1c0da9-afac-4381-b727-48637c8aeaa5",
+    "zwiftPicture": "eeb07e6f-290639",
+    "strava": ""
+  },
+  {
+    "profileId": 212771,
+    "name": "Russ Lynch",
+    "zwiftId": "25de8968-729c-4972-8b83-f0a8c373e944",
+    "zwiftPicture": "49faef11-657038",
+    "strava": ""
+  },
+  {
+    "profileId": 784472,
+    "name": "..Olly..",
+    "zwiftId": "e1eb8895-c883-40aa-87d9-1f3e5d4ac09d",
+    "zwiftPicture": "26a3971b-2886651",
+    "strava": ""
+  },
+  {
+    "profileId": 5868240,
+    "name": "Aarron Sealy",
+    "zwiftId": "7247801d-5df3-4695-a0c1-99fc8036e087",
+    "zwiftPicture": "196f1004-2888507",
+    "strava": ""
+  },
+  {
+    "profileId": 452545,
+    "name": "Al Craig",
+    "zwiftId": "3dd8fc42-6d15-4f7f-ad42-15522406a9cf",
+    "zwiftPicture": "6da81e20-247794",
+    "strava": ""
+  },
+  {
+    "profileId": 207687,
+    "name": "Alan Buckley",
+    "zwiftId": "59693aef-80f0-446f-aa6c-c19f73852257?",
+    "zwiftPicture": "d45fe73e-227883",
+    "strava": ""
+  },
+  {
+    "profileId": 422891,
+    "name": "Alex Lamers",
+    "zwiftId": "59693aef-80f0-446f-aa6c-c19f73852257?",
+    "zwiftPicture": "d45fe73e-227883",
+    "strava": ""
+  },
+  {
+    "profileId": 1912630,
+    "name": "Alison Innerd",
+    "zwiftId": "c7c6aa55-dc9e-4e32-9b78-17e4362cbc3c",
+    "zwiftPicture": "8cf242b5-1088173",
+    "strava": ""
+  },
+  {
+    "profileId": 4578387,
+    "name": "Andrew Boyd",
+    "zwiftId": "3c5b2f63-a093-4a99-8be7-d2ef1a8af518",
+    "zwiftPicture": "5246119b-2489070",
+    "strava": ""
+  },
+  {
+    "profileId": 5564085,
+    "name": "Andrew Goddard",
+    "zwiftId": "9c3286e2-db4b-406f-b164-b2268c96d5f9",
+    "zwiftPicture": "6de47964-2878004",
+    "strava": ""
+  },
+  {
+    "profileId": 3003499,
+    "name": "Andrew Staines",
+    "zwiftId": "67a77d1a-b99e-4d1d-9f52-60f445f7ac60",
+    "zwiftPicture": "cfb73490-1616550",
+    "strava": ""
+  },
+  {
+    "profileId": 1489008,
+    "name": "Andy Holak",
+    "zwiftId": "4100898e-935e-41c8-ac84-0b0c684b2528",
+    "zwiftPicture": "16b2dbb0-776050",
+    "strava": ""
+  },
+  {
+    "profileId": 159614,
+    "name": "Andy Southam",
+    "zwiftId": "e9e831c0-0919-4de5-bbea-28596ce673b7",
+    "zwiftPicture": "09144ba1-97043",
+    "strava": ""
+  },
+  {
+    "profileId": 3800026,
+    "name": "Ant Davis",
+    "zwiftId": "77d8b85b-95f3-47ca-af9d-1b71d195afc3",
+    "zwiftPicture": "71da7d13-2041282",
+    "strava": ""
+  },
+  {
+    "profileId": 3506818,
+    "name": "Bart Brouwer",
+    "zwiftId": "5e1e6b53-3a9e-4dba-a887-eb10a9c186f8",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 3671844,
+    "name": "BEN KEK",
+    "zwiftId": "db1f101f-17ce-413f-a2af-8bc615fc7710",
+    "zwiftPicture": "ed3467b5-1913239",
+    "strava": ""
+  },
+  {
+    "profileId": 4235493,
+    "name": "Ben Thomas",
+    "zwiftId": "e9f75be1-5e5d-4fc0-be84-f98c8f566f38",
+    "zwiftPicture": "e1c2ddb4-2561937",
+    "strava": ""
+  },
+  {
+    "profileId": 5139677,
+    "name": "Benjamin Bailey",
+    "zwiftId": "c050a96d-435a-4f2d-a016-efdf7623c9e0",
+    "zwiftPicture": "fa8d4f75-2593791",
+    "strava": ""
+  },
+  {
+    "profileId": 1410134,
+    "name": "Benn van R",
+    "zwiftId": "99bd76d4-d26d-45eb-bb9a-2321eafe026a",
+    "zwiftPicture": "aee87eae-912569",
+    "strava": ""
+  },
+  {
+    "profileId": 384807,
+    "name": "Bill Stevens",
+    "zwiftId": "29b69262-11b5-4c3b-9d53-1803f4bb90e1",
+    "zwiftPicture": "c47cb47b-277137",
+    "strava": ""
+  },
+  {
+    "profileId": 164684,
+    "name": "Bruce Diesel",
+    "zwiftId": "89537a30-b4cd-4eb0-88d8-90e90c60b79b",
+    "zwiftPicture": "abfdba0a-334132",
+    "strava": ""
+  },
+  {
+    "profileId": 606063,
+    "name": "Chris Clayton",
+    "zwiftId": "749dfd14-cbe0-47c9-a915-5f83102b30c5",
+    "zwiftPicture": "b718b42f-326036",
+    "strava": ""
+  },
+  {
+    "profileId": 156451,
+    "name": "Chris Gent",
+    "zwiftId": "f5914db2-bfc0-4f5e-9b47-4b5eeafb2e33",
+    "zwiftPicture": "2786621d-93850",
+    "strava": ""
+  },
+  {
+    "profileId": 434165,
+    "name": "Chris Hoare",
+    "zwiftId": "b86228df-2b30-4b5d-b121-23a4ada35855",
+    "zwiftPicture": "b6ec8fde-1474415",
+    "strava": ""
+  },
+  {
+    "profileId": 5981378,
+    "name": "Chris Wooly",
+    "zwiftId": "6f3d3c77-9482-4835-b9cb-c2eae1339090",
+    "zwiftPicture": "a5b729f7-2832285",
+    "strava": ""
+  },
+  {
+    "profileId": 170629,
+    "name": "Christopher Morrison",
+    "zwiftId": "54c488b3-0c29-4c4a-bf92-b9c805f3ce40",
+    "zwiftPicture": "6adebd82-1642803",
+    "strava": ""
+  },
+  {
+    "profileId": 84545,
+    "name": "Colin McPhee",
+    "zwiftId": "3341124c-9737-4d81-a9a2-eda9ef609e89",
+    "zwiftPicture": "923889fa-80873",
+    "strava": ""
+  },
+  {
+    "profileId": 6087998,
+    "name": "Daniel Foster",
+    "zwiftId": "8c585a15-1e24-4690-8b84-a72ff4a0d524",
+    "zwiftPicture": "8c2bd628-2883230",
+    "strava": ""
+  },
+  {
+    "profileId": 20104,
+    "name": "Daniel Paniagua",
+    "zwiftId": "a2a77925-58a3-4f03-b2f6-089ad287b1a3",
+    "zwiftPicture": "31ac2042-11578",
+    "strava": ""
+  },
+  {
+    "profileId": 1922825,
+    "name": "Darran Humpheson",
+    "zwiftId": "14eab11c-00e5-4d58-8003-194a3f4e2483",
+    "zwiftPicture": "7145111a-1120393",
+    "strava": ""
+  },
+  {
+    "profileId": 5248981,
+    "name": "Darren Hop",
+    "zwiftId": "56e8346d-af9e-4f30-89e4-3a735fb96748",
+    "zwiftPicture": "54593579-3001424",
+    "strava": ""
+  },
+  {
+    "profileId": 2596934,
+    "name": "Dave Fiddling",
+    "zwiftId": "9bf1413f-4ffe-4178-b527-de97985b0814",
+    "zwiftPicture": "6a41c295-2701502",
+    "strava": ""
+  },
+  {
+    "profileId": 4719817,
+    "name": "David Peach",
+    "zwiftId": "62ce81a8-6f7d-4b56-a1bc-ab88955b95c5",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 1599057,
+    "name": "Doubled",
+    "zwiftId": "c22830bd-6e94-4176-9cda-0b9382bae2fa",
+    "zwiftPicture": "a3ee9ff3-835328",
+    "strava": ""
+  },
+  {
+    "profileId": 1452545,
+    "name": "edward trenchard",
+    "zwiftId": "b944514c-dbdb-4bc0-b000-459889fee69c",
+    "zwiftPicture": "40eda0c8-1533080",
+    "strava": ""
+  },
+  {
+    "profileId": 942404,
+    "name": "Firms",
+    "zwiftId": "64dcbf10-5dbc-4d5b-90ec-7477d942240c",
+    "zwiftPicture": "0feeb5fe-1760424",
+    "strava": ""
+  },
+  {
+    "profileId": 1484329,
+    "name": "Florian Bouwman",
+    "zwiftId": "56abad86-1439-4e3d-ada4-1df364eb73c0",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 241838,
+    "name": "Francis Rhodes",
+    "zwiftId": "d6dae299-bb63-4f8b-b88f-c027bab5934c",
+    "zwiftPicture": "61c954ed-874543",
+    "strava": ""
+  },
+  {
+    "profileId": 52170,
+    "name": "Gasman Gorilla",
+    "zwiftId": "2a172ac1-2a4c-45dd-a49e-3b1ff3687fa5",
+    "zwiftPicture": "7a3c1673-33970",
+    "strava": ""
+  },
+  {
+    "profileId": 4086651,
+    "name": "Gem Thompson",
+    "zwiftId": "3291655a-c8b6-4440-9001-7fc17d858557",
+    "zwiftPicture": "1610d4a7-2369051",
+    "strava": ""
+  },
+  {
+    "profileId": 3056569,
+    "name": "Gemma Mitchell",
+    "zwiftId": "3bb0d9c3-6951-48c1-a04a-58714c13d871",
+    "zwiftPicture": "1c6130ae-1601712",
+    "strava": ""
+  },
+  {
+    "profileId": 13596,
+    "name": "gerard tiffen",
+    "zwiftId": "92483def-107e-4cb3-8d2d-47239f279e89",
+    "zwiftPicture": "3011f7f1-408083",
+    "strava": ""
+  },
+  {
+    "profileId": 2059687,
+    "name": "Gil Shikhman",
+    "zwiftId": "d4f028b6-2baf-4d25-bad5-9cea36c136b4",
+    "zwiftPicture": "c70d2bf9-1097875",
+    "strava": ""
+  },
+  {
+    "profileId": 1369386,
+    "name": "Graham HORTON",
+    "zwiftId": "d78179fa-6bff-41cf-b8f1-bca7cea22006",
+    "zwiftPicture": "6d6a63f8-706194",
+    "strava": ""
+  },
+  {
+    "profileId": 466810,
+    "name": "Greg Agran",
+    "zwiftId": "a45bc4fb-9ea2-4792-8932-096e503f94dc",
+    "zwiftPicture": "7fbd24f5-3048608",
+    "strava": ""
+  },
+  {
+    "profileId": 5874755,
+    "name": "Hampus Hedlund",
+    "zwiftId": "17293b22-3b76-4c22-b57c-091d0dbc1756",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 4088651,
+    "name": "Haydn Neame",
+    "zwiftId": "f5a7a7b9-0b39-435b-816e-1a500d67cdd4",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 2714820,
+    "name": "Hugo Freitas",
+    "zwiftId": "83f41c67-193d-4c6a-99d8-bd32f6b20d1b",
+    "zwiftPicture": "8dc0ed30-2034259",
+    "strava": ""
+  },
+  {
+    "profileId": 3449178,
+    "name": "Hunter Thomson",
+    "zwiftId": "f263e843-302c-4699-b612-d81ee599867b",
+    "zwiftPicture": "7e5cdf8a-1840893",
+    "strava": ""
+  },
+  {
+    "profileId": 561438,
+    "name": "huw Williams",
+    "zwiftId": "26341ed5-e5ff-40c0-9c16-7a0c685acc76",
+    "zwiftPicture": "e48f9491-752433",
+    "strava": ""
+  },
+  {
+    "profileId": 4576728,
+    "name": "I ngmar",
+    "zwiftId": "55857454-9d27-464b-a8b1-1d8236143171",
+    "zwiftPicture": "e329e16b-2290462",
+    "strava": ""
+  },
+  {
+    "profileId": 3328156,
+    "name": "Ian Scobie",
+    "zwiftId": "b7343f4d-58a8-4776-a7e2-6f28034dbabb",
+    "zwiftPicture": "8cee5170-1761662",
+    "strava": ""
+  },
+  {
+    "profileId": 5623259,
+    "name": "Jake Symes",
+    "zwiftId": "562ecd97-e317-4b45-bec4-c1e2e9ad94d3",
+    "zwiftPicture": "dd07dbeb-2718458",
+    "strava": ""
+  },
+  {
+    "profileId": 6585855,
+    "name": "James Rich",
+    "zwiftId": "bd0c911f-89c1-4376-97a2-032b48047125",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 7209,
+    "name": "Jamie Bishop",
+    "zwiftId": "10cfbc35-6865-476c-b0f4-30d4065d800d",
+    "zwiftPicture": "328403de-11312",
+    "strava": ""
+  },
+  {
+    "profileId": 3025825,
+    "name": "Jason Butterworth",
+    "zwiftId": "65003f28-3de1-4408-a36d-a99206b1fc9e",
+    "zwiftPicture": "6429401f-2546509",
+    "strava": ""
+  },
+  {
+    "profileId": 838875,
+    "name": "Jason Thompson",
+    "zwiftId": "6606abd6-d6d1-44e7-9d98-d4391c9485e7",
+    "zwiftPicture": "0842abd9-435741",
+    "strava": ""
+  },
+  {
+    "profileId": 6279560,
+    "name": "Jason Whitehead",
+    "zwiftId": "951a4ef7-d7cd-4e6a-9148-364371230a2e",
+    "zwiftPicture": "de9e0ff4-2942920",
+    "strava": ""
+  },
+  {
+    "profileId": 5379821,
+    "name": "Jelle van de Graaf",
+    "zwiftId": "9db280af-9799-4966-b586-9c00fbf4c34c",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 5268069,
+    "name": "Jenny Steele",
+    "zwiftId": "c66dfca1-e691-48b5-9fd5-9f4d8612737e",
+    "zwiftPicture": "5c03c5ec-2570791",
+    "strava": ""
+  },
+  {
+    "profileId": 3580325,
+    "name": "Joao Monteiro",
+    "zwiftId": "d8c2b2d0-ca0b-4f4a-b632-58028811cac5",
+    "zwiftPicture": "d30c7d6a-1868186",
+    "strava": ""
+  },
+  {
+    "profileId": 5503498,
+    "name": "Joe Jackson",
+    "zwiftId": "f1052362-b946-413a-9fe2-4860e261104c",
+    "zwiftPicture": "fb3b47bb-2677899",
+    "strava": ""
+  },
+  {
+    "profileId": 1575484,
+    "name": "john chance",
+    "zwiftId": "b6054fb7-2401-4550-97c4-a5e43f3eaada",
+    "zwiftPicture": "e1c92c5f-2153302",
+    "strava": ""
+  },
+  {
+    "profileId": 2836025,
+    "name": "Jon Haynes",
+    "zwiftId": "caf7588b-80cc-437b-aeb7-bb39698a7ab2",
+    "zwiftPicture": "82ad3e2b-1829097",
+    "strava": ""
+  },
+  {
+    "profileId": 1962385,
+    "name": "Jonny Newcombe",
+    "zwiftId": "495d8b69-5153-4b57-b14e-823d629bba97",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 2061375,
+    "name": "Joolz Milburn",
+    "zwiftId": "a173073b-e413-4fec-acd7-511dc722100c",
+    "zwiftPicture": "92a94c54-1496559",
+    "strava": ""
+  },
+  {
+    "profileId": 3202161,
+    "name": "Judith Verno",
+    "zwiftId": "3159add0-30d4-4766-b274-4c76512ffdac",
+    "zwiftPicture": "9e6642b1-2189600",
+    "strava": ""
+  },
+  {
+    "profileId": 5616340,
+    "name": "Justin Swift",
+    "zwiftId": "d5b3b3e7-f140-4b86-90b9-48f86ec42c50",
+    "zwiftPicture": "736324ea-2753834",
+    "strava": ""
+  },
+  {
+    "profileId": 5064719,
+    "name": "Justin van der Nest",
+    "zwiftId": "c9991cd4-a488-4f8d-896b-eb3beb853269",
+    "zwiftPicture": "66809a58-3071906",
+    "strava": ""
+  },
+  {
+    "profileId": 450573,
+    "name": "Karin Lamers",
+    "zwiftId": "bbf6cd74-90fa-47ba-8169-d0d0b2d423d7",
+    "zwiftPicture": "7eb1cc2c-1586735",
+    "strava": ""
+  },
+  {
+    "profileId": 437276,
+    "name": "Karl Turley",
+    "zwiftId": "707cb8fe-fdfb-483e-9cb9-4b25dd957de3",
+    "zwiftPicture": "434dba6f-631222",
+    "strava": ""
+  },
+  {
+    "profileId": 2953758,
+    "name": "Kevin Cole",
+    "zwiftId": "cc0ed72c-eef7-4b42-8ce0-4e048b1e7a2e",
+    "zwiftPicture": "c37af455-1555423",
+    "strava": ""
+  },
+  {
+    "profileId": 1328651,
+    "name": "Kirsty Heber-Smith ",
+    "zwiftId": "acb61afb-a691-4ed3-a9d4-20422510ce97",
+    "zwiftPicture": "42166c1b-688644",
+    "strava": ""
+  },
+  {
+    "profileId": 77326,
+    "name": "Kris Howes",
+    "zwiftId": "838a2a6e-ced6-44a3-8eb9-38f80de6f5f1",
+    "zwiftPicture": "87e9b62f-235178",
+    "strava": ""
+  },
+  {
+    "profileId": 3956981,
+    "name": "Lauren Hughes",
+    "zwiftId": "725d548b-5fca-4192-a6e6-8f3730941c52",
+    "zwiftPicture": "32a20135-2064006",
+    "strava": ""
+  },
+  {
+    "profileId": 5304538,
+    "name": "Lewis Hogg",
+    "zwiftId": "00b18189-e5bd-4a94-a929-434ab2263245",
+    "zwiftPicture": "034724db-2632137",
+    "strava": ""
+  },
+  {
+    "profileId": 1283329,
+    "name": "Lewis Vasey",
+    "zwiftId": "3aac3bf8-a460-4d0b-a2c2-13c7070d9d7a",
+    "zwiftPicture": "8848c525-1716150",
+    "strava": ""
+  },
+  {
+    "profileId": 2566325,
+    "name": "Linda Halden",
+    "zwiftId": "0a2482f4-9af9-45a7-86a8-f89d93ef2637",
+    "zwiftPicture": "199b0440-1395679",
+    "strava": ""
+  },
+  {
+    "profileId": 4919304,
+    "name": "Louise Crowley",
+    "zwiftId": "1fdbfdd1-b951-45af-90da-d593439bff99",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 437281,
+    "name": "Lucy Hewland",
+    "zwiftId": "3344494c-1889-4edb-a8ef-270ef5bb846b",
+    "zwiftPicture": "5c63ca2b-237255",
+    "strava": ""
+  },
+  {
+    "profileId": 6586106,
+    "name": "Lukas Volk",
+    "zwiftId": "f5183a0f-278a-429f-845d-b93730daa287",
+    "zwiftPicture": "8f2f3ed5-3036824",
+    "strava": ""
+  },
+  {
+    "profileId": 5156367,
+    "name": "Marine Karcher",
+    "zwiftId": "a572628f-d75f-4b50-bc8e-f5b897c2a6c8",
+    "zwiftPicture": "02db7ad9-2618351",
+    "strava": ""
+  },
+  {
+    "profileId": 71741,
+    "name": "Mark Reed",
+    "zwiftId": "7817a50a-d1cd-4ead-a54e-728b415d4fed",
+    "zwiftPicture": "07550531-2442553",
+    "strava": ""
+  },
+  {
+    "profileId": 2402637,
+    "name": "Martins Jirgensons",
+    "zwiftId": "98cea1e7-8738-4a13-a37d-c8bbc507496e",
+    "zwiftPicture": "b6723537-1913928",
+    "strava": ""
+  },
+  {
+    "profileId": 4573535,
+    "name": "Martyn Cairns",
+    "zwiftId": "71f3f9c0-682c-48b8-8d88-36051223c919",
+    "zwiftPicture": "1bf3329f-2314618",
+    "strava": ""
+  },
+  {
+    "profileId": 416153,
+    "name": "Matt Ward",
+    "zwiftId": "0d60e8b6-5d8d-4a9b-883e-a62d60fc2fd6",
+    "zwiftPicture": "17dc50ba-677636",
+    "strava": ""
+  },
+  {
+    "profileId": 2985518,
+    "name": "Mees van Steen",
+    "zwiftId": "5392a938-d4f9-415f-a5b2-87417d98e7e8",
+    "zwiftPicture": "ece7772b-2537736",
+    "strava": ""
+  },
+  {
+    "profileId": 5891217,
+    "name": "Michal Sealmen",
+    "zwiftId": "0ee6a79a-3021-48bb-9356-a564a8f3c563",
+    "zwiftPicture": "36ef19a2-2823240",
+    "strava": ""
+  },
+  {
+    "profileId": 4111268,
+    "name": "mike jones",
+    "zwiftId": "46e3d02f-f8d2-44fc-8a00-5b8fb6f9c027",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 6047263,
+    "name": "Morgan Lodge",
+    "zwiftId": "786da596-98c2-42a1-9ab8-9d8c3b1b5a40",
+    "zwiftPicture": "d2fbc7d6-3033604",
+    "strava": ""
+  },
+  {
+    "profileId": 1360468,
+    "name": "Neil Turner",
+    "zwiftId": "27b83a9b-739d-4e8f-a05e-16c743981ffd",
+    "zwiftPicture": "37e4edc3-702027",
+    "strava": ""
+  },
+  {
+    "profileId": 5159280,
+    "name": "Nick Honeyman",
+    "zwiftId": "84827a68-d67b-4c96-bcea-c7ca65b5d8bc",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 38095,
+    "name": "Nick Jones",
+    "zwiftId": "823f2de4-4887-440b-87d3-0da5a125eb10",
+    "zwiftPicture": "3dff82b2-9266",
+    "strava": ""
+  },
+  {
+    "profileId": 4613598,
+    "name": "Nick Wilson",
+    "zwiftId": "17ea584b-b9e3-4547-8e09-1745f7f39bc3",
+    "zwiftPicture": "e94fbbbc-2361559",
+    "strava": ""
+  },
+  {
+    "profileId": 1873366,
+    "name": "Nigel Hornsby",
+    "zwiftId": "b481976c-951f-4a3a-8d51-a3680efd4681",
+    "zwiftPicture": "e33141b8-984958",
+    "strava": ""
+  },
+  {
+    "profileId": 2842519,
+    "name": "Patrick Mulderij",
+    "zwiftId": "49b84d73-7bcf-405b-823e-6f5aeb279d24",
+    "zwiftPicture": "481505b3-2595617",
+    "strava": ""
+  },
+  {
+    "profileId": 3044218,
+    "name": "Paul Churchill",
+    "zwiftId": "87e05a04-9157-4d27-b256-9d1628b2a720",
+    "zwiftPicture": "7f1446d4-1595534",
+    "strava": ""
+  },
+  {
+    "profileId": 2882571,
+    "name": "Peter Horn",
+    "zwiftId": "c98ab400-80e2-4c3f-bc10-a43144939e89",
+    "zwiftPicture": "2e152f8f-1626470",
+    "strava": ""
+  },
+  {
+    "profileId": 4391995,
+    "name": "Peter Swann",
+    "zwiftId": "868d23f9-3882-461a-8828-e832beaec7b0",
+    "zwiftPicture": "3eb4c6bb-2348472",
+    "strava": ""
+  },
+  {
+    "profileId": 4310844,
+    "name": "René Kowalsky",
+    "zwiftId": "020c2d87-fa18-42b1-9d81-fe7fc0badf75",
+    "zwiftPicture": "d4b6fc0a-3031542",
+    "strava": ""
+  },
+  {
+    "profileId": 1449338,
+    "name": "Rich Cumez",
+    "zwiftId": "9449caa2-36eb-45ab-9272-3e7b19d746e8",
+    "zwiftPicture": "27ffd698-1050285",
+    "strava": ""
+  },
+  {
+    "profileId": 89683,
+    "name": "Rich Gorilla",
+    "zwiftId": "ea68b02d-5136-4480-b76c-5426fb7f6ee6",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 2526344,
+    "name": "Rich Jamieson",
+    "zwiftId": "192c5305-f4f2-4316-a5e3-bf349d3ed771",
+    "zwiftPicture": "64b221ed-1372235",
+    "strava": ""
+  },
+  {
+    "profileId": 415926,
+    "name": "Rich Lane",
+    "zwiftId": "9383104f-e9b4-43ad-9de6-54271956a83e",
+    "zwiftPicture": "2eac847b-224962",
+    "strava": ""
+  },
+  {
+    "profileId": 743084,
+    "name": "Richard Gibson",
+    "zwiftId": "b921a129-70dd-4e73-935c-6d717122f41e",
+    "zwiftPicture": "5368a48b-401095",
+    "strava": ""
+  },
+  {
+    "profileId": 1689276,
+    "name": "Richard Smallridge",
+    "zwiftId": "63ae9d68-e931-4d11-8b68-764dcac58ce3",
+    "zwiftPicture": "23515414-904258",
+    "strava": ""
+  },
+  {
+    "profileId": 1000494,
+    "name": "Richard Winston",
+    "zwiftId": "8fcfc54a-ac13-49c7-9ad8-bda9e9b161d9",
+    "zwiftPicture": "bcb574fe-551187",
+    "strava": ""
+  },
+  {
+    "profileId": 182511,
+    "name": "Rob Baer",
+    "zwiftId": "ccf21347-175f-448d-bd83-d09012718736",
+    "zwiftPicture": "8723550e-1968420",
+    "strava": ""
+  },
+  {
+    "profileId": 1428823,
+    "name": "Robert Pilato",
+    "zwiftId": "104d5c4a-a4c9-4a34-8bb0-323927caa10d",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 2131995,
+    "name": "Roger Abbott",
+    "zwiftId": "ff53ada1-7f4c-4dba-b02f-09e6609d67f5",
+    "zwiftPicture": "496a92a8-1175092",
+    "strava": ""
+  },
+  {
+    "profileId": 96607,
+    "name": "Sam Anderson",
+    "zwiftId": "34222c7d-028d-466d-871f-2808c41a5b8b",
+    "zwiftPicture": "63c39ad5-48261",
+    "strava": ""
+  },
+  {
+    "profileId": 4363770,
+    "name": "Sam Knight",
+    "zwiftId": "2884f362-e884-4a05-9bd0-50c1baddcf85",
+    "zwiftPicture": "591d04ca-2252238",
+    "strava": ""
+  },
+  {
+    "profileId": 309039,
+    "name": "Sam Liddell",
+    "zwiftId": "dba22711-ab9f-4fa0-8069-511f4a58870c",
+    "zwiftPicture": "eb29a80b-452192",
+    "strava": ""
+  },
+  {
+    "profileId": 687723,
+    "name": "Scott Lewis",
+    "zwiftId": "354d5792-7015-436f-a396-6e7c12562d8f",
+    "zwiftPicture": "a3a28424-366867",
+    "strava": ""
+  },
+  {
+    "profileId": 1108560,
+    "name": "Sean vdP",
+    "zwiftId": "c7117bb7-b61f-41a9-8a41-eaef587e39a9",
+    "zwiftPicture": "d5121920-579355",
+    "strava": ""
+  },
+  {
+    "profileId": 5027250,
+    "name": "Sebastian Merschel",
+    "zwiftId": "be873745-fef4-45a1-8f65-dc74f362678e",
+    "zwiftPicture": "a1c34639-2558658",
+    "strava": ""
+  },
+  {
+    "profileId": 4595868,
+    "name": "Shaun Brereton",
+    "zwiftId": "18dcd80d-25bd-4393-a0b0-107dcc87f770",
+    "zwiftPicture": "7a8a364e-2320558",
+    "strava": ""
+  },
+  {
+    "profileId": 238241,
+    "name": "Simon Gaunt",
+    "zwiftId": "53d5c6b9-0dda-4c78-9d47-8406736f476c",
+    "zwiftPicture": "e611b256-142567",
+    "strava": ""
+  },
+  {
+    "profileId": 1693103,
+    "name": "Simon Leek",
+    "zwiftId": "19c32684-8d46-48a9-a923-0f4bb124fd9d",
+    "zwiftPicture": "9175509c-1933046",
+    "strava": ""
+  },
+  {
+    "profileId": 3166508,
+    "name": "Simon Storey",
+    "zwiftId": "95729d51-cbc1-48aa-8245-71147d0f9ebc",
+    "zwiftPicture": "1e1ca6ad-1681292",
+    "strava": ""
+  },
+  {
+    "profileId": 2001080,
+    "name": "Stefan Slater",
+    "zwiftId": "9624fab2-2944-4956-9f19-164a5ee06c14",
+    "zwiftPicture": "36fe0f9c-1077652",
+    "strava": ""
+  },
+  {
+    "profileId": 4737356,
+    "name": "Steve Clark",
+    "zwiftId": "1936059c-d9cc-4f2b-ac18-3eec98842219",
+    "zwiftPicture": "d786ae54-2372635",
+    "strava": ""
+  },
+  {
+    "profileId": 286246,
+    "name": "Steve Gibbins",
+    "zwiftId": "57b3e4f5-ccd8-403a-b526-53e42dfee5cd",
+    "zwiftPicture": "568976f7-166378",
+    "strava": ""
+  },
+  {
+    "profileId": 585067,
+    "name": "Steve Parnell",
+    "zwiftId": "3bd78b03-4ac0-4fb5-862e-e675c387c3be",
+    "zwiftPicture": "dd6b47e7-1859702",
+    "strava": ""
+  },
+  {
+    "profileId": 6423866,
+    "name": "TGI. Sam",
+    "zwiftId": "27cde19a-4791-49c2-a3d3-55bef8c692ed",
+    "zwiftPicture": "2bca9409-3013836",
+    "strava": ""
+  },
+  {
+    "profileId": 3613084,
+    "name": "Tim Simpson",
+    "zwiftId": "e57f2242-b90b-42f2-99a2-e7a948c35b43",
+    "zwiftPicture": "5d102d0c-1895417",
+    "strava": ""
+  },
+  {
+    "profileId": 457241,
+    "name": "Tom Bass",
+    "zwiftId": "b01220fe-61c5-48a9-9032-ab964c2f0f49",
+    "zwiftPicture": "f6a14606-983782",
+    "strava": ""
+  },
+  {
+    "profileId": 2376064,
+    "name": "Tom Christmas",
+    "zwiftId": "d7a55832-e943-4b79-b756-b780ef5cde76",
+    "zwiftPicture": "28df08f1-1742617",
+    "strava": ""
+  },
+  {
+    "profileId": 774258,
+    "name": "Tom Shelton",
+    "zwiftId": "4cb6dd58-896d-4ee1-a86a-c611c66cd3ba",
+    "zwiftPicture": "4c2d5468-420500",
+    "strava": ""
+  },
+  {
+    "profileId": 162704,
+    "name": "Tracy Clark",
+    "zwiftId": "c62509e5-080c-4fdb-9e79-1e0f49f5a110",
+    "zwiftPicture": "fb99de28-2980803",
+    "strava": ""
+  },
+  {
+    "profileId": 5503300,
+    "name": "Tushar",
+    "zwiftId": "17882a2f-e249-4c77-a487-ff145e0ff109",
+    "zwiftPicture": "f7089299-3064535",
+    "strava": ""
+  },
+  {
+    "profileId": 1800177,
+    "name": "Unai Calafell",
+    "zwiftId": "bbc19e76-b8cb-41e2-9f39-38aa24b0be40",
+    "zwiftPicture": "c7a35603-950504",
+    "strava": ""
+  },
+  {
+    "profileId": 421897,
+    "name": "Vladimir Bolgarov",
+    "zwiftId": "9a85171e-4cf2-4081-a796-86d605bfe9ea",
+    "zwiftPicture": "f44980ba-227236",
+    "strava": ""
+  },
+  {
+    "profileId": 6673645,
+    "name": "Vladimir Zavyalov",
+    "zwiftId": "e9e2a4d8-6682-4cae-a3b2-da660593eb4d",
+    "zwiftPicture": "57d6ffbf-3044618",
+    "strava": ""
+  },
+  {
+    "profileId": 1340084,
+    "name": "Willie Junius",
+    "zwiftId": "0b877dd3-ced2-4a85-a2b2-ace6325cc26c",
+    "zwiftPicture": "6b64cac8-1259361",
+    "strava": ""
+  },
+  {
+    "profileId": 3163818,
+    "name": "Yas Vasilakis",
+    "zwiftId": "e46c9544-fe27-42b8-a087-8354e3063c88",
+    "zwiftPicture": "88c2a3cf-1678504",
+    "strava": ""
+  },
+  {
+    "profileId": 2931690,
+    "name": "yogi Waffle",
+    "zwiftId": "de60226d-06c9-47c4-8ce5-284ee9dbeaa7",
+    "zwiftPicture": "",
+    "strava": ""
+  },
+  {
+    "profileId": 61107,
+    "name": "YShouldU",
+    "zwiftId": "ba2ec3cf-283d-498b-8ba9-c163d616969c",
+    "zwiftPicture": "5027cc28-516519",
+    "strava": ""
   }
 ]
