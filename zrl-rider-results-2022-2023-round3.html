@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sunrise Racing Team">
+    <meta name="author" content="Steve Norman">
+    <meta name="generator" content="Me">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Sunrise Racing Team</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.css">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="./css/srt.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-swedishblue fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/name.png" height="30" alt="Sunrise Racing Team">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownEvents" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownEvents">
+                <li><a class="dropdown-item" href="race-series-2023.html">SRT Race Series 2023</a></li>
+                <li><a class="dropdown-item" href="events.html">Upcoming WTRL TTT Races</a></li>
+                <li><a class="dropdown-item" href="results.html">WTRL TTT Results</a></li>
+                <li><a class="dropdown-item" href="zrlresults.html">ZRL Results</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownRiders" data-bs-toggle="dropdown" aria-expanded="false">Riders</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownRiders">
+                <li><a class="dropdown-item" href="profiles.html">Profiles</a></li>
+                <li><a class="dropdown-item" href="achievements.html">Achievements</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownPrep" data-bs-toggle="dropdown" aria-expanded="false">Race Preparation</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownPrep">
+                <li><a class="dropdown-item" href="firstrace.html">First Race</a></li>
+                <li><a class="dropdown-item" href="everyrace.html">Every Race</a></li>
+                <li><a class="dropdown-item" href="coursenotes.html">Course Notes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+        <div class="row">
+          <div class="col">
+              <h1>ZRL 2022/23 Round 3</h1>
+          </div>
+          <div class="col text-end">
+              <a href="zrl-results-2022-2023-round3.html">Summary</a>
+          </div>
+        </div>
+
+        <h1 class="pt-3">Rider Contributions</h1>
+
+        <table id="table" data-sortable="true" data-sort-name="total" data-sort-order="desc" data-row-style="rowStyle" data-search="true">
+            <thead>
+                <tr class="bg-swedishblue fg-swedishyellow">
+                    <th data-field="displayName" data-sortable="true">Rider</th>
+                    <th data-field="events" data-sortable="true" data-sort-name="events" data-sort-order="desc">Events</th>
+                    <th data-field="fal" data-sortable="true" data-sort-name="fal" data-sort-order="desc">FAL</th>
+                    <th data-field="fts" data-sortable="true" data-sort-name="fts" data-sort-order="desc">FTS</th>
+                    <th data-field="fin" data-sortable="true" data-sort-name="fin" data-sort-order="desc">FIN</th>
+                    <th data-field="total" data-sortable="true" data-sort-name="total" data-sort-order="desc" data-formatter="totalFormatter">Total</th>
+                </tr>
+            </thead>
+        </table>
+
+        <div>
+          * - Total points will be less as they are adjusted due to technical infringements or failing to finish a race.
+        </div>
+
+
+    </main><!-- /.container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
+
+<script>
+  var $table = $('#table')
+
+  $(function() {
+    var data = [
+    {'displayName': 'S. Shahbazi','events': 6,'fal': 111,'fts': 64,'fin': 109,'total': 284,'issues': false,},{'displayName': 'S. Pallister','events': 6,'fal': 27,'fts': 0,'fin': 77,'total': 104,'issues': false,},{'displayName': 'A. Willett','events': 5,'fal': 39,'fts': 23,'fin': 81,'total': 143,'issues': false,},{'displayName': 'R. Tanner','events': 5,'fal': 0,'fts': 0,'fin': 63,'total': 63,'issues': false,},{'displayName': 'D. Geldenhuys','events': 4,'fal': 4,'fts': 0,'fin': 47,'total': 51,'issues': false,},{'displayName': 'M. Bunning','events': 5,'fal': 15,'fts': 7,'fin': 54,'total': 76,'issues': false,},{'displayName': 'B. Copsey','events': 5,'fal': 0,'fts': 0,'fin': 44,'total': 44,'issues': false,},{'displayName': 'O. Tatarasanu','events': 3,'fal': 0,'fts': 0,'fin': 15,'total': 15,'issues': false,},{'displayName': 'K. Lange','events': 6,'fal': 9,'fts': 4,'fin': 50,'total': 63,'issues': false,},{'displayName': 'R. Geor','events': 5,'fal': 0,'fts': 0,'fin': 12,'total': 12,'issues': false,},{'displayName': 'T. Boeschenstein','events': 5,'fal': 30,'fts': 12,'fin': 40,'total': 26,'issues': true,},{'displayName': 'B. Richards','events': 4,'fal': 23,'fts': 11,'fin': 61,'total': 95,'issues': false,},{'displayName': 'O. Ciocoiu','events': 6,'fal': 0,'fts': 0,'fin': 36,'total': 36,'issues': false,},{'displayName': 'C. Sheppard','events': 4,'fal': 3,'fts': 3,'fin': 44,'total': 50,'issues': false,},{'displayName': 'C. Bennett','events': 3,'fal': 5,'fts': 0,'fin': 38,'total': 43,'issues': false,},{'displayName': 'P. Searle','events': 3,'fal': 1,'fts': 0,'fin': 31,'total': 32,'issues': false,},{'displayName': 'T. Balle','events': 4,'fal': 38,'fts': 7,'fin': 66,'total': 73,'issues': true,},{'displayName': 'M. Raudnic','events': 5,'fal': 11,'fts': 2,'fin': 76,'total': 89,'issues': false,},{'displayName': 'C. Banks','events': 4,'fal': 0,'fts': 0,'fin': 47,'total': 35,'issues': true,},{'displayName': 'I. Horritt','events': 5,'fal': 0,'fts': 0,'fin': 67,'total': 67,'issues': false,},{'displayName': 'D. Gunby','events': 6,'fal': 0,'fts': 0,'fin': 63,'total': 63,'issues': false,},{'displayName': 'A. Armstrong','events': 1,'fal': 2,'fts': 1,'fin': 17,'total': 20,'issues': false,},{'displayName': 'M. Liebling','events': 4,'fal': 32,'fts': 20,'fin': 70,'total': 122,'issues': false,},{'displayName': 'S. Pinczewski','events': 1,'fal': 0,'fts': 0,'fin': 0,'total': 0,'issues': false,},{'displayName': 'J. Potter','events': 6,'fal': 7,'fts': 0,'fin': 67,'total': 74,'issues': false,},{'displayName': 'V. Gutiérrez','events': 6,'fal': 30,'fts': 2,'fin': 78,'total': 110,'issues': false,},{'displayName': 'A. Burri','events': 6,'fal': 98,'fts': 42,'fin': 85,'total': 225,'issues': false,},{'displayName': 'R. Sullivan','events': 6,'fal': 20,'fts': 1,'fin': 75,'total': 96,'issues': false,},{'displayName': 'G. Geldenhuys','events': 3,'fal': 6,'fts': 3,'fin': 18,'total': 27,'issues': false,},{'displayName': 'J. Skinner','events': 4,'fal': 0,'fts': 0,'fin': 34,'total': 34,'issues': false,},{'displayName': 'R. Cole','events': 6,'fal': 8,'fts': 0,'fin': 53,'total': 61,'issues': false,},{'displayName': 'P. Trett','events': 2,'fal': 0,'fts': 0,'fin': 12,'total': 12,'issues': false,},{'displayName': 'T. Erdélyi','events': 2,'fal': 0,'fts': 0,'fin': 15,'total': 15,'issues': false,},{'displayName': 'P. Speed','events': 5,'fal': 14,'fts': 22,'fin': 55,'total': 91,'issues': false,},{'displayName': 'P. Dillon','events': 5,'fal': 0,'fts': 0,'fin': 57,'total': 57,'issues': false,},{'displayName': 'S. Gowland','events': 6,'fal': 0,'fts': 0,'fin': 18,'total': 18,'issues': false,},{'displayName': 'A. Kerby','events': 6,'fal': 10,'fts': 10,'fin': 39,'total': 59,'issues': false,},{'displayName': 'P. Waugh','events': 6,'fal': 14,'fts': 0,'fin': 25,'total': 39,'issues': false,},{'displayName': 'M. Close','events': 6,'fal': 0,'fts': 0,'fin': 31,'total': 31,'issues': false,},{'displayName': 'D. Speed','events': 1,'fal': 2,'fts': 0,'fin': 11,'total': 13,'issues': false,},{'displayName': 'G. Mayger','events': 2,'fal': 0,'fts': 0,'fin': 3,'total': 3,'issues': true,},{'displayName': 'D. Rowe','events': 1,'fal': 0,'fts': 0,'fin': 17,'total': 17,'issues': false,},{'displayName': 'M. Keeble','events': 3,'fal': 0,'fts': 0,'fin': 27,'total': 27,'issues': false,},{'displayName': 'C. Gibson','events': 6,'fal': 7,'fts': 5,'fin': 50,'total': 62,'issues': false,},{'displayName': 'N. Young','events': 5,'fal': 0,'fts': 0,'fin': 28,'total': 28,'issues': false,},{'displayName': 'B. Bakk','events': 3,'fal': 0,'fts': 0,'fin': 12,'total': 12,'issues': false,},{'displayName': 'M. Ringrose','events': 5,'fal': 0,'fts': 0,'fin': 15,'total': 15,'issues': false,},{'displayName': 'K. Fogarty','events': 6,'fal': 24,'fts': 1,'fin': 34,'total': 33,'issues': true,},{'displayName': 'G. Stockman','events': 3,'fal': 0,'fts': 0,'fin': 35,'total': 35,'issues': false,},{'displayName': 'P. Millington','events': 5,'fal': 0,'fts': 0,'fin': 29,'total': 29,'issues': false,},{'displayName': 'J. Jake','events': 1,'fal': 0,'fts': 0,'fin': 7,'total': 7,'issues': false,},{'displayName': 'C. Van rensburg','events': 4,'fal': 10,'fts': 1,'fin': 57,'total': 68,'issues': false,},{'displayName': 'C. Akers','events': 5,'fal': 15,'fts': 0,'fin': 55,'total': 70,'issues': false,},{'displayName': 'D. Murphy','events': 6,'fal': 14,'fts': 3,'fin': 61,'total': 78,'issues': false,},{'displayName': 'L. Pozzani','events': 6,'fal': 15,'fts': 0,'fin': 76,'total': 91,'issues': false,},{'displayName': 'R. Ivan','events': 5,'fal': 0,'fts': 0,'fin': 39,'total': 39,'issues': false,},{'displayName': 'C. Stopherson','events': 6,'fal': 0,'fts': 0,'fin': 24,'total': 24,'issues': false,},{'displayName': 'D. Kaiser','events': 2,'fal': 0,'fts': 0,'fin': 15,'total': 15,'issues': false,},{'displayName': 'P. Chraim','events': 1,'fal': 0,'fts': 0,'fin': 0,'total': 0,'issues': false,},{'displayName': 'R. Bradley','events': 6,'fal': 0,'fts': 5,'fin': 65,'total': 70,'issues': false,},{'displayName': 'M. Jones','events': 6,'fal': 14,'fts': 0,'fin': 74,'total': 88,'issues': false,},{'displayName': 'A. Jansson','events': 4,'fal': 0,'fts': 5,'fin': 37,'total': 42,'issues': false,},{'displayName': 'S. Jennings','events': 5,'fal': 0,'fts': 0,'fin': 25,'total': 25,'issues': false,},{'displayName': 'G. Turner','events': 5,'fal': 0,'fts': 0,'fin': 23,'total': 23,'issues': false,},{'displayName': 'S. Hansford','events': 2,'fal': 0,'fts': 0,'fin': 5,'total': 5,'issues': false,},{'displayName': 'G. Johnson','events': 4,'fal': 64,'fts': 40,'fin': 64,'total': 168,'issues': false,},{'displayName': 'L. Holmes','events': 3,'fal': 13,'fts': 11,'fin': 32,'total': 56,'issues': false,},{'displayName': 'J. Mcmanus','events': 3,'fal': 0,'fts': 0,'fin': 21,'total': 21,'issues': false,},{'displayName': 'M. Hulett','events': 6,'fal': 23,'fts': 1,'fin': 72,'total': 96,'issues': false,},{'displayName': 'J. Murray','events': 3,'fal': 0,'fts': 0,'fin': 23,'total': 23,'issues': false,},{'displayName': 'P. Thomson','events': 5,'fal': 0,'fts': 0,'fin': 26,'total': 26,'issues': false,},{'displayName': 'M. Fisher','events': 5,'fal': 0,'fts': 0,'fin': 18,'total': 18,'issues': false,},{'displayName': 'D. Norton','events': 2,'fal': 0,'fts': 0,'fin': 16,'total': 16,'issues': false,},{'displayName': 'A. Bailey','events': 5,'fal': 4,'fts': 0,'fin': 46,'total': 50,'issues': false,},{'displayName': 'R. Jones','events': 2,'fal': 11,'fts': 6,'fin': 24,'total': 41,'issues': false,},{'displayName': 'W. Peck','events': 5,'fal': 20,'fts': 0,'fin': 56,'total': 76,'issues': false,},{'displayName': 'S. Coe','events': 1,'fal': 0,'fts': 0,'fin': 12,'total': 12,'issues': false,},{'displayName': 'B. Naumovski','events': 4,'fal': 0,'fts': 0,'fin': 11,'total': 11,'issues': false,},{'displayName': 'M. Shields','events': 5,'fal': 0,'fts': 0,'fin': 21,'total': 21,'issues': false,},
+    ]
+    $table.bootstrapTable({data: data})
+  })
+
+  function rowStyle(row, index) {
+    if (index % 2 === 0) {
+      return {
+        classes: 'bg-secondary'
+      }
+    }
+    return {
+      css: {
+      }
+    }
+  }
+
+  function totalFormatter(value, row) {
+    if (row.issues) {
+      return value + '*'
+    }
+    return value 
+  }
+
+</script>
+</body>
+
+</html>
